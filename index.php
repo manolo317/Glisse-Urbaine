@@ -133,42 +133,48 @@
 					
 				</ul>
 			</div>	
-	<div id="barmenuvideo">
-				<h3 class="titreSecond"><a href="videos.php">Vidéos +</a></h3>
-				
-				
-				<a href="videostrot.php"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/></a>
-				<iframe width="300" height="200" src="https://www.youtube.com/embed/a8oiGsLog_s" frameborder="0" allowfullscreen></iframe>
-				<p>
-				<br/>
-					La dernière vidéo des petits frenchies de <a href="http://www.bluntandenvy.com/homepage/" title="vers le site"/>Blunt</a> <strong>Charles Padel</strong> et <strong>Flavio Pesenti</strong>.
-				</p>
-				<div id="lignemenu"></div>
-				<br/>
-				<br/>
-				<a href="videosrol.php"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/></a>
-				<iframe  class="minivideo" width="300" height="200" src="https://www.youtube.com/embed/HgZjYtnu4lM" frameborder="0" allowfullscreen></iframe>
-				<p>
-				<br/>	
-					<strong>Julien Cudot</strong> présente sa nouvelle marque: <a href="http://triggerskate.com/fr/" title="vers le site"/>Trigger Skates</a>.
-				</p>
-
-				<div id="lignemenu"></div>
-				<br/>
-				<br/>
-				<a href="videoskate.php"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/></a>
-				<iframe width="300" height="200" src="http://www.youtube.com/embed/xu6z3YbVMmk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-				<br/>
-				<p>
-				<br/>
-					La petite dernière de chez <a href="http://loadedboards.com/" title="vers le site"/>Loaded</a>, la <strong>Kanthaka</strong>.
-				</p>
-				<div id="lignemenu"></div>
-				<br/>
-				<div id="fb-root"></div><script src="http://connect.facebook.net/fr_FR/all.js#xfbml=1"></script><fb:like-box href="https://www.facebook.com/pages/Glisseurbainefr/140816476093436" width="300" show_faces="true" border_color="#ccc" stream="false" header="true"></fb:like-box>
-				<br/>
-				
+	<div id="barmenuvideo">	
+		<h3 class="titreSecond"><a href="videos.php">Vidéos +</a></h3>
+		
+		<div class="video-box">
+			<a href="videostrot.php" class="logo-video"><img src="photos/videotrottinette.jpg"  alt="logo video trottinette"/></a>
+			<iframe class="minivideo" src="https://www.youtube.com/embed/a8oiGsLog_s" frameborder="0" allowfullscreen></iframe>
+			<p>
+			<br/>
+				La dernière vidéo des petits frenchies de <a href="http://www.bluntandenvy.com/homepage/" title="vers le site"/>Blunt</a> <strong>Charles Padel</strong> et <strong>Flavio Pesenti</strong>.
+			</p>
+		</div>
+		<div id="lignemenu"></div>
+		<br/>
+		<br/>
+		<div class="video-box">
+			<a href="videosrol.php"><img src="photos/videoroller.jpg" alt="logo video roller"/></a>
+			<iframe class="minivideo" src="https://www.youtube.com/embed/HgZjYtnu4lM" frameborder="0" allowfullscreen></iframe>
+			<p>
+			<br/>	
+				<strong>Julien Cudot</strong> présente sa nouvelle marque: <a href="http://triggerskate.com/fr/" title="vers le site"/>Trigger Skates</a>.
+			</p>
+		</div>
+		<div id="lignemenu"></div>
+		<br/>
+		<br/>
+		<div class="video-box">
+			<a href="videoskate.php"><img src="photos/videoskate.jpg" alt="logo video skate"/></a>
+			<iframe class="minivideo" src="http://www.youtube.com/embed/xu6z3YbVMmk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+			<br/>
+			<p>
+			<br/>
+				La petite dernière de chez <a href="http://loadedboards.com/" title="vers le site"/>Loaded</a>, la <strong>Kanthaka</strong>.
+			</p>
+		</div>
+		<div id="lignemenu"></div>
+		<br/>
+		<div id="fb-video">
+			<div id="fb-root"></div><script src="http://connect.facebook.net/fr_FR/all.js#xfbml=1"></script><fb:like-box href="https://www.facebook.com/pages/Glisseurbainefr/140816476093436" width="300" show_faces="true" border_color="#ccc" stream="false" header="true"></fb:like-box>
+		</div>
+		<br/>
 	</div>
 	<?php include("pied.php"); ?>
+	</div>
 	</body>
 </html>

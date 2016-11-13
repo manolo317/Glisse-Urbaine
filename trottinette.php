@@ -60,26 +60,33 @@
 			</div>	
 		<div id="barmenuvideo">
 			<h3 class="titreSecondTrot"><a href="videos.php" title="Toutes les vidéos de Trotinette">Videos +</a></h3>
-			<a href="videostrot.php"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle" title="Toutes les vidéos de Trotinette"/></a>
-			<iframe width="300" height="200" src="https://www.youtube.com/embed/a8oiGsLog_s" frameborder="0" allowfullscreen></iframe>
-			<p>La dernière vidéo des petits frenchies de <a href="http://www.bluntandenvy.com/homepage/" title="vers le site"/>Blunt</a> <strong>Charles Padel</strong> et <strong>Flavio Pesenti</strong></p>
+			<div class="video-box">
+				<a href="videostrot.php"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" title="Toutes les vidéos de Trotinette"/></a>
+				<iframe class="minivideo" src="https://www.youtube.com/embed/a8oiGsLog_s" frameborder="0" allowfullscreen></iframe>
+				<p>La dernière vidéo des petits frenchies de <a href="http://www.bluntandenvy.com/homepage/" title="vers le site"/>Blunt</a> <strong>Charles Padel</strong> et <strong>Flavio Pesenti</strong></p>
+			</div>
 			<div id="lignemenu"></div>
 			<br/>
-			<a href="videostrot.php"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle" title="Toutes les vidéos de Trotinette"/></a><br/>
-			<iframe width="300" height="200" src="http://www.youtube.com/embed/JT04txwqNwM?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></p>
-			<p>Dernière vidéo de <strong>Brendon Smith</strong>, rider <strong>Fasen</strong>, qui répond aux grosses vidéos de ses anciens collègues de Blunt. Des tricks ultratechnique, dont lui seul a le secret, à base nunchakuwhip, on comprend rien, ça va vite, c'est impressionant!</p>
-			
+			<div class="video-box">
+				<a href="videostrot.php"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" title="Toutes les vidéos de Trotinette"/></a><br/>
+				<iframe class="minivideo" src="http://www.youtube.com/embed/JT04txwqNwM?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+				<p>Dernière vidéo de <strong>Brendon Smith</strong>, rider <strong>Fasen</strong>, qui répond aux grosses vidéos de ses anciens collègues de Blunt. Des tricks ultratechnique, dont lui seul a le secret, à base nunchakuwhip, on comprend rien, ça va vite, c'est impressionant!</p>
+			</div>
 			<div id="lignemenu"></div>
 			<br/>
 			<br/>
-			<a href="videostrot.php"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle" title="Toutes les vidéos de Trotinette"/></a>
-			<iframe width="300" height="200" src="http://www.youtube.com/embed/tbO7YZNed4w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-			<p>La nouvelle vidéo de la Team <strong>Ethic DTC</strong>, en road trip en Australie.</p>
+			<div class="video-box">
+				<a href="videostrot.php"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" title="Toutes les vidéos de Trotinette"/></a>
+				<iframe class="minivideo" src="http://www.youtube.com/embed/tbO7YZNed4w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+				<p>La nouvelle vidéo de la Team <strong>Ethic DTC</strong>, en road trip en Australie.</p>
+			</div>
 			<br/>
-			<div id="fb-root"></div><script src="http://connect.facebook.net/fr_FR/all.js#xfbml=1"></script><fb:like-box href="https://www.facebook.com/pages/Glisseurbainefr/140816476093436" width="300" show_faces="true" border_color="#ccc" stream="false" header="true"></fb:like-box> 
+			<div id="fb-video">
+				<div id="fb-root"></div><script src="http://connect.facebook.net/fr_FR/all.js#xfbml=1"></script><fb:like-box href="https://www.facebook.com/pages/Glisseurbainefr/140816476093436" width="300" show_faces="true" border_color="#ccc" stream="false" header="true"></fb:like-box> 
+			</div>
 			<br/>
-			
 		</div>
+	</div>	
 	<?php include("pied.php"); ?>
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/animhover.js"></script>

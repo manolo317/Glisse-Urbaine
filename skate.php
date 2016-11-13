@@ -47,27 +47,35 @@
 			</div>	
 		<div id="barmenuvideo">
 			<h3 class="titreSecondSkate"><a href="videoskate.php" title="Toutes les vidéos de Skate">Videos +</a></h3>
-			<a href="videoskate.php"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle" title="Toutes les vidéos de Skate"/></a>
-			<iframe width="300" height="200" src="http://www.youtube.com/embed/xu6z3YbVMmk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>	
-			<p>Vidéo promo de la dernière planche Loaded, la Kanthaka, une petite board de Street bien joueuse, que les 3 riders Loaded maltraite bien.</p>
+			<div class="video-box">
+				<a href="videoskate.php"><img src="photos/videoskate.jpg" alt="logo video skate" title="Toutes les vidéos de Skate"/></a>
+				<iframe class="minivideo" src="http://www.youtube.com/embed/xu6z3YbVMmk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>	
+				<p>Vidéo promo de la dernière planche Loaded, la Kanthaka, une petite board de Street bien joueuse, que les 3 riders Loaded maltraite bien.</p>
+			</div>
 			<div id="lignemenu"></div>
 			<br/>
-			<a href="videoskate.php"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle" title="Toutes les vidéos de Skate"/></a>
-			<iframe width="300" height="200" src="http://www.youtube.com/embed/Ncq27mZq6b4?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></p>
-			<p>Brave, un skater pas comme les autres, Tommy Caroll skate depuis qu'il a 10 ans, je vous laisse découvrir cette leçon de d'humilité.</p>
-			
+			<div class="video-box">
+				<a href="videoskate.php"><img src="photos/videoskate.jpg" alt="logo video skate" title="Toutes les vidéos de Skate"/></a>
+				<iframe class="minivideo" src="http://www.youtube.com/embed/Ncq27mZq6b4?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></p>
+				<p>Brave, un skater pas comme les autres, Tommy Caroll skate depuis qu'il a 10 ans, je vous laisse découvrir cette leçon de d'humilité.</p>
+			</div>
 			<div id="lignemenu"></div>
 			<br/>
 			<br/>
-			<a href="videoskate.php"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle" title="Toutes les vidéos de Skate"/></a>
-			<iframe width="300" height="200" src="https://www.youtube.com/embed/mHkjYNHiFLU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>	<br/>
-			<p>Un beau reportage sur l'histoire du skateboard et de son développement en Europe, à prendre le temps de regarder.</p>
+			<div class="video-box">
+				<a href="videoskate.php"><img src="photos/videoskate.jpg" alt="logo video skate" title="Toutes les vidéos de Skate"/></a>
+				<iframe class="minivideo" src="https://www.youtube.com/embed/7EBBZ4bCv9g" frameborder="0" allowfullscreen></iframe>	<br/>
+				<p>Un beau reportage sur l'histoire du skateboard et de son développement en Europe, à prendre le temps de regarder.</p>
+			</div>
 			<div id="lignemenu"></div>
 			<br/>
-			<div id="fb-root"></div><script src="http://connect.facebook.net/fr_FR/all.js#xfbml=1"></script><fb:like-box href="https://www.facebook.com/pages/Glisseurbainefr/140816476093436" width="300" show_faces="true" border_color="#ccc" stream="false" header="true"></fb:like-box> 
+			<div id="fb-video">
+				<div id="fb-root"></div><script src="http://connect.facebook.net/fr_FR/all.js#xfbml=1"></script><fb:like-box href="https://www.facebook.com/pages/Glisseurbainefr/140816476093436" width="300" show_faces="true" border_color="#ccc" stream="false" header="true"></fb:like-box> 
+			</div>
 			<br/>
 		
 		</div>
+	</div>
 	<?php include("pied.php"); ?>
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/animhover.js"></script>

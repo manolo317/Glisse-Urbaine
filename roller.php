@@ -79,36 +79,42 @@
 			</div>
 			<div id="barmenuvideo">
 				<h3 class="titreSecondRoller"><a href="videosrol.php" title="Toutes les vidéos de Roller">Videos +</a></h3>
-				<a href="videosrol.php" title="Toutes les vidéos de Roller"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/></a>
-				<iframe src="http://player.vimeo.com/video/64682584" width="300" height="200" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-				<p>
-					Trip en Inde de Anthony Finocchiaro et Pierre Lelievre, les freeriders de chez Seba, une superbe vidéo, avec des images extraodinaires, ça donne envie de voyager et de faire se développer le roller.
-				</p>
+				<div class="video-box">
+					<a href="videosrol.php" class="logo-video" title="Toutes les vidéos de Roller"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/></a>
+					<iframe class="minivideo" src="http://player.vimeo.com/video/64682584" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					<p>
+						Trip en Inde de Anthony Finocchiaro et Pierre Lelievre, les freeriders de chez Seba, une superbe vidéo, avec des images extraodinaires, ça donne envie de voyager et de faire se développer le roller.
+					</p>
+				</div>
 				<div id="lignemenu"></div>
 				<br/>
 				<br/>
-				<a href="videosrol.php" title="Toutes les vidéos de Roller"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/></a>
-				<br/>
-				<iframe src="https://www.youtube.com/embed/ZQb9qcTtFgY" width="300" height="200" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
-				<p>
-					Richie Eisler continue son tour du monde, cette fois-ci il débarque à Bangkok, où il roule avec Worapoj Boonnim, un bon rider local. Une belle vidéo, où encore une fois il nous montre l'étendu de son talent, il a quand même la belle vie Richie!
-				</p>
-
+				<div class="video-box">
+					<a href="videosrol.php" title="Toutes les vidéos de Roller"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/></a>
+					<br/>
+					<iframe class="minivideo" src="https://www.youtube.com/embed/ZQb9qcTtFgY" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+					<p>
+						Richie Eisler continue son tour du monde, cette fois-ci il débarque à Bangkok, où il roule avec Worapoj Boonnim, un bon rider local. Une belle vidéo, où encore une fois il nous montre l'étendu de son talent, il a quand même la belle vie Richie!
+					</p>
+				</div>
 				<div id="lignemenu"></div>
 				<br/>
 				<br/>
-				<a href="videosrol.php" title="Toutes les vidéos de Roller"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle" /></a>
-				<iframe width="300" height="200" src="http://player.vimeo.com/video/53732685" frameborder="0" allowfullscreen></iframe>
+				<div class="video-box">
+					<a href="videosrol.php" title="Toutes les vidéos de Roller"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle" /></a>
+					<iframe class="minivideo" src="http://player.vimeo.com/video/53732685" frameborder="0" allowfullscreen></iframe>
+					<br/>
+					<p>
+						Les meilleures moments de la Blading Cup 2012, remportée par CJ Wellsmore.
+					</p>
+				</div>
 				<br/>
-				<p>
-					Les meilleures moments de la Blading Cup 2012, remportée par CJ Wellsmore.
-				</p>
-				<br/>
-				<div id="fb-root"></div><script src="http://connect.facebook.net/fr_FR/all.js#xfbml=1"></script><fb:like-box href="https://www.facebook.com/pages/Glisseurbainefr/140816476093436" width="300" show_faces="true" border_color="#ccc" stream="false" header="true"></fb:like-box>
-				<br/>
-
+				<div id="fb-video">
+					<div id="fb-root"></div><script src="http://connect.facebook.net/fr_FR/all.js#xfbml=1"></script><fb:like-box href="https://www.facebook.com/pages/Glisseurbainefr/140816476093436" width="300" show_faces="true" border_color="#ccc" stream="false" header="true"></fb:like-box>
+					<br/>
+				</div>
 			</div>
-	
+		</div>
 		<?php include("pied.php"); ?>
 		<script src="js/jquery-1.10.2.min.js"></script>
 		<script src="js/animhover.js"></script>

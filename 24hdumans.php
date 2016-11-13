@@ -65,7 +65,7 @@
 							<h4>16H-22H:</h4>
 							
 							
-								<img src="photos/depart.jpg" alt="D�part" class="photoarticle"/>
+								<img src="photos/depart.jpg" alt="Départ" class="photoarticle"/>
 							<p>	
 								A 16 heures, c'est enfin le départ tant attendu, décidèment je suis gâté, c'est encore pour moi et pour Chloé pour les Classic. Normalement nous sommes sensés être placés en fonction de nos essais, mais impossible de voir notre place sur la grille, donc nous allons nous placer dans le peloton, équipés de nos Gopro pour ne pas rater une miette de ce moment mythique.
 							</p>
