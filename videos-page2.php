@@ -51,43 +51,43 @@
 				<ul>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-richie2012.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/66703166" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Le best of 2012 de Richie Eisler</span></div></a>
+						<a href="video-richie2012.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/66703166" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Le best of 2012 de Richie Eisler</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-virussuv.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/66719308" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La vidéo de promo des Virus SUV par Adrien Anne</span></div></a>
+						<a href="video-virussuv.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/66719308" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La vidéo de promo des Virus SUV par Adrien Anne</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-fiseabrate.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe frameborder="0" class="minivideo" width="154" height="80" src="http://www.dailymotion.com/embed/video/xzsifv"></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Le run gagnant de Roman Abrate au FISE 2013</span></div></a>
+						<a href="video-fiseabrate.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe frameborder="0" class="videomenu" width="154" height="80" src="http://www.dailymotion.com/embed/video/xzsifv"></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Le run gagnant de Roman Abrate au FISE 2013</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-india.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/64682584" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Seba in India</span></div></a>
+						<a href="video-india.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/64682584" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Seba in India</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-gladiator.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/62894147" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La Vidéo du Gladiator Contest VIII</span></div></a>
+						<a href="video-gladiator.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/62894147" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La Vidéo du Gladiator Contest VIII</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-loaded-kanthaka.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/xu6z3YbVMmk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La petite dernière de chez Loaded, la Kanthaka</span></div></a>
+						<a href="video-loaded-kanthaka.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/xu6z3YbVMmk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La petite dernière de chez Loaded, la Kanthaka</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-chynna.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/Ac_ir-Jp7Es?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Chynna Weierstall, une fille qu'envoie du gros!</span></div></a>
+						<a href="video-chynna.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/Ac_ir-Jp7Es?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Chynna Weierstall, une fille qu'envoie du gros!</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-igor.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/61810658" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Présentation Seba Igor 2013</span></div></a>
+						<a href="video-igor.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/61810658" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Présentation Seba Igor 2013</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-downhill.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/nGfYBFRPmO8?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vidéo de Downhill en Suisse</span></div></a>
+						<a href="video-downhill.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/nGfYBFRPmO8?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vidéo de Downhill en Suisse</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-ethic-aus.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/tbO7YZNed4w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La Team Ethic en Australie</span></div></a>
+						<a href="video-ethic-aus.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/tbO7YZNed4w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La Team Ethic en Australie</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 				</ul>

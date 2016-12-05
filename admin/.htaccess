@@ -1,0 +1,5 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "C:\wamp\www\glisseurbaine\admin\.htpasswd"
+Require valid-user
+

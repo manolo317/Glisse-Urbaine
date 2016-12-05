@@ -25,35 +25,35 @@
 			<ul>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-cv.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/57790864" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vitae, la vidéo de la team lettone de Nils Jansons</span></div></a>
+					<a href="video-cv.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/57790864" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vitae, la vidéo de la team lettone de Nils Jansons</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-dave-mutschall.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/Xqp2jP8piq4" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Dave Mutschall USD 2012</span></div></a>
+					<a href="video-dave-mutschall.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/Xqp2jP8piq4" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Dave Mutschall USD 2012</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-nils-jansons.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe width="154" height="80" class="minivideo" src="http://www.youtube.com/embed/OaKDOhAyaYw?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La nouvelle terreur du Street: Nils Jansons</span></div></a>
+					<a href="video-nils-jansons.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe width="154" height="80" class="videomenu" src="http://www.youtube.com/embed/OaKDOhAyaYw?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La nouvelle terreur du Street: Nils Jansons</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-julien-cudot.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/54380929" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Edit de Julien Cudot à Bercy</span></div></a>
+					<a href="video-julien-cudot.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/54380929" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Edit de Julien Cudot à Bercy</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-wax%26bombing2012.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/52068529" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Wax&Bombing 2012, session Powerblading à Barcelone</span></div></a>
+					<a href="video-wax%26bombing2012.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/52068529" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Wax&Bombing 2012, session Powerblading à Barcelone</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-carbon-morales.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/qRtV-jnMGvI" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Présentation USD Carbon Franky Morales</span></div></a>
+					<a href="video-carbon-morales.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/qRtV-jnMGvI" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Présentation USD Carbon Franky Morales</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-seba-fra-nicolas-colliaux.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/19608743" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vidéo de Nicolas Colliaux en Seba FR A</span></div></a>
+					<a href="video-seba-fra-nicolas-colliaux.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/19608743" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vidéo de Nicolas Colliaux en Seba FR A</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-bladingcup2012.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/53732685" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Superbe vidéo des meilleurs moments de la blading cup 2012</span></div></a>
+					<a href="video-bladingcup2012.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/53732685" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Superbe vidéo des meilleurs moments de la blading cup 2012</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 			</ul>

@@ -51,43 +51,43 @@
 				<ul>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-felipe-gustavo2012.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/3lOUoTw9nhY?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Felipe Gustavo 2012</span></div></a>
+						<a href="video-felipe-gustavo2012.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/3lOUoTw9nhY?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Felipe Gustavo 2012</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-pretty-sweet.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/5lW007wAD5k?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Pretty sweet, la vidéo à ne pas rater</span></div></a>
+						<a href="video-pretty-sweet.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/5lW007wAD5k?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Pretty sweet, la vidéo à ne pas rater</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-isa2012.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/LTHuwBivGgg?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Finale de l'ISA, Best trick</span></div></a>
+						<a href="video-isa2012.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/LTHuwBivGgg?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Finale de l'ISA, Best trick</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-boris-germain-the-animal.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/CaAXN23sxqE?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vidéo de Boris Germain pour la nouvelle team Micro Scooter</span></div></a>
+						<a href="video-boris-germain-the-animal.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/CaAXN23sxqE?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vidéo de Boris Germain pour la nouvelle team Micro Scooter</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-nils-jansons.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe width="154" height="80" class="minivideo" src="http://www.youtube.com/embed/OaKDOhAyaYw?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La nouvelle terreur du Street: Nils Jansons</span></div></a>
+						<a href="video-nils-jansons.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe width="154" height="80" class="videomenu" src="http://www.youtube.com/embed/OaKDOhAyaYw?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La nouvelle terreur du Street: Nils Jansons</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-julien-cudot.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/54380929" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Edit de Julien Cudot à Bercy</span></div></a>
+						<a href="video-julien-cudot.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/54380929" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Edit de Julien Cudot à Bercy</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-nijah-huston.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/Gu4_6oeqN6I?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Nijah Huston, natural born skater</span></div></a>
+						<a href="video-nijah-huston.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/Gu4_6oeqN6I?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Nijah Huston, natural born skater</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-nothing-front-flip.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/jg_sPhnL1q4?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Nothing front scooter flip par Robbie Weir</span></div></a>
+						<a href="video-nothing-front-flip.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/jg_sPhnL1q4?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Nothing front scooter flip par Robbie Weir</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-ethic-dtc.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/sbHTP9dEhnw?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La vidéo de la marque la plus attendue: Ethic DTC</span></div></a>
+						<a href="video-ethic-dtc.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/sbHTP9dEhnw?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La vidéo de la marque la plus attendue: Ethic DTC</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-curtis-vandries.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/Ihl8dKSsdKU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Edit de bienvenue de Curtis Vandries, nouveau rider Sacrifice Scooter</span></div></a>
+						<a href="video-curtis-vandries.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/Ihl8dKSsdKU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Edit de bienvenue de Curtis Vandries, nouveau rider Sacrifice Scooter</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 				</ul>

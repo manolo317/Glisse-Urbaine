@@ -51,27 +51,27 @@
 				<ul>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-jaraiconic.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/LXK06okRMN0?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Jara Iconic</span></div></a>
+						<a href="video-jaraiconic.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/LXK06okRMN0?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Jara Iconic</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-wax%26bombing2012.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/52068529" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Wax&Bombing 2012, session Powerblading à Barcelone</span></div></a>
+						<a href="video-wax%26bombing2012.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/52068529" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Wax&Bombing 2012, session Powerblading à Barcelone</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-carbon-morales.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/qRtV-jnMGvI" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Présentation USD Carbon Franky Morales</span></div></a>
+						<a href="video-carbon-morales.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/qRtV-jnMGvI" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Présentation USD Carbon Franky Morales</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-seba-fra-nicolas-colliaux.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/19608743" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vidéo de Nicolas Colliaux en Seba FR A</span></div></a>
+						<a href="video-seba-fra-nicolas-colliaux.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/19608743" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vidéo de Nicolas Colliaux en Seba FR A</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-bladingcup2012.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/53732685" class="minivideo" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Superbe vidéo des meilleurs moments de la blading cup 2012</span></div></a>
+						<a href="video-bladingcup2012.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="http://player.vimeo.com/video/53732685" class="videomenu" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Superbe vidéo des meilleurs moments de la blading cup 2012</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-kilian-martin.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/cbSbbY5ibas?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Altered Route: la dernière vidéo de Kilian Martin</span></div></a>
+						<a href="video-kilian-martin.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/cbSbbY5ibas?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Altered Route: la dernière vidéo de Kilian Martin</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 				</ul>

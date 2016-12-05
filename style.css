@@ -20,6 +20,7 @@ p
 }
 h1
 {
+	display: inline-block;
 	color: gray;
 	font: 30px 'FFF_Tusj', arial bold;
 }
@@ -456,7 +457,6 @@ html>body #menu li ul ul
 {
 	text-indent: 20px;
 	padding-top: 20px;
-	padding-left: 20px;	
 }
 #introller h3
 {
@@ -536,8 +536,7 @@ html>body #menu li ul ul
 #introt p
 {
 	text-indent: 20px;
-	padding-top: 20px;
-	padding-left: 20px;	
+	padding-top: 20px;	
 }
 #introt h3
 {
@@ -618,7 +617,6 @@ html>body #menu li ul ul
 {
 	text-indent: 20px;
 	padding-top: 20px;
-	padding-left: 20px;	
 }
 #introskate h3
 {
@@ -802,7 +800,7 @@ li.video
 	color:gray;
 }
 /*MEDIA QUERIES*/
-@media screen and (max-width: 860px)
+@media screen and (max-width: 860px) 
 {
 	#barmenuppal
 	{
@@ -864,11 +862,137 @@ li.video
 	{
 		font: 20px arial bold;
 	}
+	.iconhover img
+	{
+		width: 60px;
+		height: 60px;
+	}
+	img.photoarticle, #introller img
+	{
+		padding-right: 0px;
+	}
+
 }
 @media screen and (max-width: 1100px) and (min-width: 860px)
 {
 	#fb-video
 	{
 		display: none;
+	}
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width: 710px)
+{
+	#corps, #introller, #introskate, #introt
+	{
+		width: 85%;
+	}
+	#introt img, #introller img, #introskate img
+	{
+		padding-right: 0px;
+	}
+	#menu li ul /* Sous-listes */
+	{
+		display: none;
+	}
+	#menu a 
+	{
+		max-width: 100px;
+	}
+	#icon-box
+	{
+		width: 80%;
+	}
+	.video span, p#corps 
+	{
+		display: inline-block;
+		width: 80%;
+	}
+	img.photoarticle
+	{
+		text-align: center;
+		margin-right: 0px;
+		padding-bottom: 10px;
+		float: none;
+		display: block;
+		margin: auto;
+	}
+	img.roll2
+	{
+		display: none;
+	}
+	li.video 
+	{
+    padding-left: 0px;
+    text-align: center;
+	}
+	iframe.video-large
+	{
+		max-height: 320px;
+	}
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width: 510px)
+{
+	#conteneur
+	{
+		padding-top: 0px;
+	}
+	#menu
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	#menu li ul /* Sous-listes */
+	{
+		display: none;
+	}
+	#menu a 
+	{
+		max-width: 150px;
+	}
+	#barmenuppal
+	{
+		min-width: 300px;
+	}
+	#barmenuvideo
+	{
+		min-width: 300px;
+		
+	}
+	iframe.minivideo
+	{
+		min-height: 150px;
+	}
+	#barmenuppal ul li .content a
+	{
+		width: 100%;
+	}
+	#barmenuppal ul li .content p
+	{
+		width: 100%;
+		padding-left: 0px;
+		padding-top: 10px;
+	}
+	#pied-de-page
+	{
+		min-height: 180px;
+	}
+	h1
+	{
+		width:80%;
+	}
+	.iconhover img
+	{
+		width: 40px;
+		height: 40px;
+	}
+	#icon-box
+	{
+		width: 90%;
+	}
+	iframe.video-large
+	{
+		max-height: 180px;
 	}
 }

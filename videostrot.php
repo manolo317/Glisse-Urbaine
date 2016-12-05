@@ -25,43 +25,43 @@
 			<ul>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-blunt-usa-trip.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe width="154" height="80" src="https://www.youtube.com/embed/a8oiGsLog_s" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Blunt USA trip 2016</span></div></a>
+					<a href="video-blunt-usa-trip.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/a8oiGsLog_s" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Blunt USA trip 2016</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-dissidencestreetjam.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/ZiBvHaf__eg" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Retour sur six éditions de Dissidence Street Jam</span></div></a>
+					<a href="video-dissidencestreetjam.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/ZiBvHaf__eg" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Retour sur six éditions de Dissidence Street Jam</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-benjfriant.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/BRtdoxk9bYg?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Benj Friant Recovering 2013</span></div></a>
+					<a href="video-benjfriant.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/BRtdoxk9bYg?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Benj Friant Recovering 2013</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-urbanartt.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/L6Y2wRWhYwA?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Urban Artt débarque!</span></div></a>
+					<a href="video-urbanartt.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/L6Y2wRWhYwA?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Urban Artt débarque!</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-jaraiconic.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/LXK06okRMN0?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Jara Iconic</span></div></a>
+					<a href="video-jaraiconic.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/LXK06okRMN0?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Jara Iconic</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-ethic-aus.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/tbO7YZNed4w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La Team Ethic en Australie</span></div></a>
+					<a href="video-ethic-aus.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/tbO7YZNed4w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> La Team Ethic en Australie</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-brendon-smith.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/JT04txwqNwM?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Brendon Smith au sommet de son art</span></div></a>
+					<a href="video-brendon-smith.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/JT04txwqNwM?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Brendon Smith au sommet de son art</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-dakota-ellenshow.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/ooN3m7qOj_w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Dakota au Ellen Show!</span></div></a>
+					<a href="video-dakota-ellenshow.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/ooN3m7qOj_w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Dakota au Ellen Show!</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-jake-clark.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/vj14svXOZu8?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Jake Clark, signature deck promo</span></div></a>
+					<a href="video-jake-clark.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/vj14svXOZu8?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Jake Clark, signature deck promo</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				<li class="video">
-					<a href="video-dakota.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/qn0507g5H_g?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vidéos de Dakota Schuetz, le best rider</span></div></a>
+					<a href="video-dakota.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/qn0507g5H_g?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Vidéos de Dakota Schuetz, le best rider</span></div></a>
 				</li>
 				<div id="lignemenu"></div>
 				

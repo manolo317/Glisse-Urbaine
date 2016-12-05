@@ -51,43 +51,43 @@
 				<ul>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-blunt-usa-trip.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe width="154" height="80" src="https://www.youtube.com/embed/a8oiGsLog_s" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Blunt USA trip 2016</span></div></a>
+						<a href="video-blunt-usa-trip.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/a8oiGsLog_s" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Blunt USA trip 2016</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-cudot-trigger.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe  class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/HgZjYtnu4lM" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Julien Cudot présente sa nouvelle marque: Trigger Skates</span></div></a>
+						<a href="video-cudot-trigger.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe  class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/HgZjYtnu4lM" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Julien Cudot présente sa nouvelle marque: Trigger Skates</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-dissidencestreetjam.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/ZiBvHaf__eg" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Retour sur six éditions de Dissidence Street Jam</span></div></a>
+						<a href="video-dissidencestreetjam.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/ZiBvHaf__eg" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Retour sur six éditions de Dissidence Street Jam</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-william-spencer.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/mFoGHeMxuzA" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> William Spencer, skater acrobate</span></div></a>
+						<a href="video-william-spencer.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/mFoGHeMxuzA" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> William Spencer, skater acrobate</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-wsx2015.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="https://player.vimeo.com/video/150162144" class="minivideo" width="154" height="80" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Les meilleurs moments du WSX 2012</span></div></a>
+						<a href="video-wsx2015.php" title="voir la vidéo"><img src="photos/videoroller.jpg" alt="logo video roller" class="photoarticle"/><br/><br/><div class="imagehover"><iframe src="https://player.vimeo.com/video/150162144" class="videomenu" width="154" height="80" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Les meilleurs moments du WSX 2012</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-benjfriant.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/BRtdoxk9bYg?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Benj Friant Recovering 2013</span></div></a>
+						<a href="video-benjfriant.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/BRtdoxk9bYg?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Benj Friant Recovering 2013</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-tj-rogers.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/uJ1p4yZNXfo?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> TJ Rogers Switch Frontside 360 Hollywood 16</span></div></a>
+						<a href="video-tj-rogers.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/uJ1p4yZNXfo?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> TJ Rogers Switch Frontside 360 Hollywood 16</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-urbanartt.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="https://www.youtube.com/embed/L6Y2wRWhYwA?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Urban Artt débarque!</span></div></a>
+						<a href="video-urbanartt.php" title="voir la vidéo"><img src="photos/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="https://www.youtube.com/embed/L6Y2wRWhYwA?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Urban Artt débarque!</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-erickoston.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" src="http://player.vimeo.com/video/67019026" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> This is Eric Koston</span></div></a>
+						<a href="video-erickoston.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" src="http://player.vimeo.com/video/67019026" width="154" height="80" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> This is Eric Koston</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 					<li class="video">
-						<a href="video-downhilldisco.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="minivideo" width="154" height="80" src="http://www.youtube.com/embed/HeuMj6UDzbU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Downhill Disco 2013</span></div></a>
+						<a href="video-downhilldisco.php" title="voir la vidéo"><img src="photos/videoskate.jpg" alt="logo video skate" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="http://www.youtube.com/embed/HeuMj6UDzbU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe><img src="photos/fond-noir-video.jpg" class="roll2" /><span> Downhill Disco 2013</span></div></a>
 					</li>
 					<div id="lignemenu"></div>
 				</ul>
