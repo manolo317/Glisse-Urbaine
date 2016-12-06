@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  	<script src="https://cdn.tinymce.com/4/tinymce.min.js"></script>
+	 	<script>tinymce.init({ selector:'textarea', 
+	 	plugins : 'advlist autolink link image lists charmap print preview' });</script>
+	</head>
+	<body>
+		<form id="formulaire" action="article_post.php" method="post">
+		<br>
+        <label for="texte" >Texte : </label>
+        <textarea id="texte" name="texte" rows="25" ></textarea>
+        <label for="auteur"><strong>Nom :</strong></label>
+        <br/><input type="text" id="auteur" name="auteur" required/>
+        <br>
+        <label for="title"><strong>Titre :</strong></label><br/><input type="text" id="title" name="title" required/>
+        <br>
+        <input type="submit" value="Envoyer"/>
+	 </form>
+	</body>
+</html>
