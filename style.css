@@ -799,6 +799,18 @@ li.video
 	font: 0.8em italic;
 	color:gray;
 }
+/*CONTACT*/
+h2.contact
+{
+	display: inline-block;
+	color: gray;
+	font: 20px 'FFF_Tusj', arial bold;
+	margin-bottom: 15px;
+}
+label.contact
+{
+	display: block;
+}
 /*MEDIA QUERIES*/
 @media screen and (max-width: 860px) 
 {
@@ -994,5 +1006,14 @@ li.video
 	iframe.video-large
 	{
 		max-height: 180px;
+	}
+	.commentaires
+	{
+		margin: 0px;
+		padding:0px;
+	}
+	.commentaires h3
+	{
+		margin: 0px;
 	}
 }

@@ -194,11 +194,11 @@
 						<div class="para_article">
 							<h3>Les systèmes de compression:</h3>
 					
-							<p><a href="ics.php"><img src="photos/ics.jpg" alt="photo ICS"/> ICS (Inverted Compression System)</a> <br/><br/><br/>
+							<div><a href="ics.php"><img src="photos/ics.jpg" alt="photo ICS"/> ICS (Inverted Compression System)</a> <br/><br/><br/>
 								<a href="hic.php"><img src="photos/hic.jpg" alt="photo HIC"/> HIC (Handlebar Integrated Compression System) ou IHC</a> <br/><br/><br/>
 								<a href="scs.php"><img src="photos/scs.jpg" alt="photo SCS"/> SCS (Standard Compression System)</a> <br/><br/><br/>
 								<a href="tlc.php"><img src="photos/tlc.jpg" alt="photo TLC"/> TLC (Thread Lock Compression System)</a>
-							</p>
+							</div>
 						</div>
 					</li>
 				</ul>
