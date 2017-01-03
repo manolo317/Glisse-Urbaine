@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
 	<head>
-		<title>Vidéo Roller: Gladdiator Contest 2013</title>
+		<title>Vidéo Roller: Gladiator Contest 2013</title>
 		<meta name="description" content="L'actualité des sports de glisse urbain: Roller, Skateboard et Trotinette. Des dossiers pour bien choisir son matériel, découvrir une nouvelle pratique, pour monter sa trottinette freestyle, ou pour voir le dernier world first en vidéo!"/>
 		<?php include("head.php"); ?>
 		<body>

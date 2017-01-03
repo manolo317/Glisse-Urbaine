@@ -12,7 +12,7 @@
 
 		<div id="conteneur">
 			<h2 class="titrePrincipalTrot">Tout savoir sur le montage des Trottinette freestyle</h2>
-		<div id="introt">
+			<div id="introt">
 				<img src="photos/montageblazer.jpg" alt="montage blazer" class="photoarticle"/>
 				<h3>Ce qu'il faut savoir pour bien choisir les différents éléments:</h3>
 				<p>
