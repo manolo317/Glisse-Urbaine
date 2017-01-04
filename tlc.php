@@ -13,17 +13,19 @@
 		<div id="conteneur">
 			<h2 class="titrePrincipalTrot">Le sytème de compression TLC</h2>
 			<div id="introt">
-					<p><img src="photos/tlcschema.png" alt="TLC schema " class="photoarticle"/>
+					<p><img src="public/img/tlcschema.png" alt="TLC schema " class="photoarticle"/>
 					<h3>Un TLC c'est quoi?</h3>
 					<p>
 						<strong>Thread Lock Compression System</strong>, c'est une fourche filetée, qui fait la compression grâce à un écrou qui va venir se visser sur la fourche jusqu'à bloquer sur le jeu de direction. C'est le premier système de compression inventer pour les trottinettes(pour le vélo à la base), on le retrouve encore sur les modèles premier prix. Il est assez efficace, mais il se dévisse très vite et il a tendance à durcir la direction quand il est bien serrer. 
 					<p/>
 			</div>
 			<div id="corps">
-					<div class="para_article">
-							<h3>Démonstration en vidéo:</h3>
-					<iframe class="video-large"me width="854" height="480" src="https://www.youtube.com/embed/MCDarJ0ZkeA" frameborder="0" allowfullscreen></iframe>
-					</div>
+				<div class="para_article">
+						<h3>Démonstration en vidéo:</h3>
+				<iframe class="video-large"me width="854" height="480" src="https://www.youtube.com/embed/MCDarJ0ZkeA" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<a href="http://localhost/glisseurbaine/V4/details?id=6">retour vers montage trottinette</a>
+			</div>
 					
 					<div class="like">
 						

@@ -13,7 +13,7 @@
 		<div id="conteneur">
 			<h2 class="titrePrincipalTrot">Le sytème de compression ICS</h2>
 			<div id="introt">
-					<img src="photos/icsschema.png" alt="ics schema " class="photoarticle"/>
+					<img src="public/img/icsschema.png" alt="ics schema " class="photoarticle"/>
 					<h3>Un ICS c'est quoi?</h3>
 					<p>
 						<strong>Inverted Compression System</strong>, soit littéralement en français: système de compression inversé.<br/>
@@ -41,7 +41,7 @@
 					</ul>
 					
 					<p>
-						<img src="photos/montageics2.jpg" alt="montage ics" class="photopage">
+						<img src="public/img/montageics2.jpg" alt="montage ics" class="photopage">
 					</p>	
 					<br/><br/>
 					<div class="para_article">
@@ -51,21 +51,21 @@
 							Il existe diffèrents types de vis de compression, qui s'adaptent en fonction des types de fourches et des marques:<br/>
 						</p>
 						<li>
-							<img src="photos/kitdistrict.jpg" alt="kit District" class="photoarticle"/>
+							<img src="public/img/kitdistrict.jpg" alt="kit District" class="photoarticle"/>
 							<p>
 								<strong>Le kit de compression District</strong>: il s'adapte sur les fourches District quasi-exclusivement, la vis est petite, elle s'enfonce directement au fond de la fourche.
 							</p>
 						</li>
 						<br/><br/><br/><br/>
 						<li>
-							<img src="photos/kit006.jpg" alt="kit 006" class="photoarticle"/>
+							<img src="public/img/kit006.jpg" alt="kit 006" class="photoarticle"/>
 							<p>
 								<strong>Le kit de compression 006 et French ID</strong>: il s'adaptent sur pas mal de fourche, car il dispose d'une rondelle qui permet de fixer la longue vis de compression au niveau de la base de la fourche.
 							</p>
 						</li> 
 							<br/><br/<br/><br/>
 						<li>	
-							<img src="photos/kitaddict.jpg" alt="kit Addict" class="photoarticle"/>
+							<img src="public/img/kitaddict.jpg" alt="kit Addict" class="photoarticle"/>
 							<p>
 								<strong>Le kit de compression Addict et Ethic DTC</strong>: ils ne s'adaptent qu'avec les fourches Addict et Ethic, la vis et le trou de l'étoile ont un plus gros diamètre.
 							</p>
@@ -78,6 +78,7 @@
 							<h3>Démonstration en vidéo:</h3>
 					<iframe class="video-large" width="854" height="480" src="https://www.youtube.com/embed/TxYgefWFQA8" frameborder="0" allowfullscreen></iframe>
 					</div>
+				
 					<div class="like">
 						
 						<div class="fb-like" data-href="https://www.glisseurbaine.fr/montagetrot.php" data-send="true" data-width="450" data-show-faces="true"></div>      <a href="http://twitter.com/share" class="twitter-share-button"

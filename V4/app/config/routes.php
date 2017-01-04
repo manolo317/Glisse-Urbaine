@@ -9,6 +9,14 @@
 $routes = [
     "/" => "home",
     "/home" => "home",
-    "/details" => "movieDetails",
+    "/details" => "articleDetails",
+    "/roller" => "roller",
+    "/trottinette" => "trottinette",
+    "/skate" => "skate",
+    "/videos" => "videos",
+    "/videos-roller" => "videosRoller",
+    "/videos-trottinette" => "videosTrot",
+    "/videos-skate" => "videosSkate",
+    "/video-details" => "videoDetails",
 
 ];

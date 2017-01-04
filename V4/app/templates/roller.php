@@ -2,11 +2,11 @@
 /**
  * Created by PhpStorm.
  * User: Emmanuel
- * Date: 02/01/2017
- * Time: 17:55
+ * Date: 04/01/2017
+ * Time: 11:26
  */
 ?>
-<?php include("diapo2.php"); ?>
+
 <div id="barmenuppal">
     <h2 class="hidden"> Liste des dernières actualités.</h2>
     <ul>
@@ -29,19 +29,9 @@
 </div>
 <div id="barmenuvideo">
     <h3 class="titreSecond"><a href="#">Vidéos +</a></h3>
+    <?php foreach($videosRoller as $videoRoller): ?>
     <div class="video-box">
-        <a href="<?= BASE_URL ?>videos-trottinette" class="logo-video"><img src="<?= BASE_URL ?>public/img/videotrottinette.jpg"  alt="logo video trottinette"/></a>
-        <iframe class="minivideo" src="<?= $videoTrot->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
-        <p>
-            <br/>
-            <?= $videoTrot->getContent() ?>
-        </p>
-    </div>
-    <div id="lignemenu"></div>
-    <br>
-    <br>
-    <div class="video-box">
-        <a href="<?= BASE_URL ?>videos-roller"><img src="<?= BASE_URL ?>public/img/videoroller.jpg" alt="logo video roller"/></a>
+        <a href="#"><img src="<?= BASE_URL ?>public/img/videoroller.jpg" alt="logo video roller"/></a>
         <iframe class="minivideo" src="<?= $videoRoller->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
         <p>
             <br>
@@ -51,20 +41,12 @@
     <div id="lignemenu"></div>
     <br>
     <br>
-    <div class="video-box">
-        <a href="<?= BASE_URL ?>videos-skate"><img src="<?= BASE_URL ?>public/img/videoskate.jpg" alt="logo video skate"/></a>
-        <iframe class="minivideo" src="<?= $videoSkate->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
-        <br>
-        <p>
-            <br>
-            <?= $videoSkate->getContent() ?>
-        </p>
-    </div>
-    <div id="lignemenu"></div>
-    <br>
+    <?php endforeach; ?>
 
     <div id="fb-video">
         <div id="fb-root"></div><script src="http://connect.facebook.net/fr_FR/all.js#xfbml=1"></script><fb:like-box href="https://www.facebook.com/pages/Glisseurbainefr/140816476093436" width="300" show_faces="true" border_color="#ccc" stream="false" header="true"></fb:like-box>
     </div>
-<br>
+    <br>
 </div>
+<script src="<?= BASE_URL ?>/public/js/jquery-1.10.2.min.js"></script>
+<script src="<?= BASE_URL ?>/public/js/animhover.js"></script>

@@ -14,7 +14,7 @@
 			<h2 class="titrePrincipalSkate">Comment choisir son longboard</h2>
 			
 			<div id="introskate">
-				<img src="photos/longboard.jpg" alt="cruising" class="photoarticle"/>
+				<img src="public/img/longboard.jpg" alt="cruising" class="photoarticle"/>
 				
 				<p>
 					Longtemps confidentiel le longboard séduit de plus en plus d'adeptes, recherche de nouvelles sensations de glisse, de vitesse ou simplement un moyen de se déplacer, les pratiques et pratiquants sont très diversifiés et les marques et les modèles des fabricants sont tout aussi nombreux.
@@ -36,7 +36,7 @@
 								<li><strong>Forme</strong>: il existe une grande variété de forme de plateaux, toutes caractéristiques de leurs pratiques.<br/></li><br/>
 								
 								<p>
-									<img src="photos/decklongboard.jpg" alt="plateaux" class="photopage"/>
+									<img src="public/img/decklongboard.jpg" alt="plateaux" class="photopage"/>
 								</p>
 								<p><strong>Le pintail</strong>: la forme classique du longboard, qui rappelle la forme du surf, un plateau idéal pour du cruising et du carving.<br/></p>
 								<p><strong>Downhill</strong>: Des plateaux épais et bien lourd pour la descente.<br/></p>
@@ -65,7 +65,7 @@
 								Enfin, dernier point, c'est le montage des trucks sur la planche, il en existe plusieurs types:
 							</p>
 							<p>
-								<img src="photos/topmount.jpg" alt="montage trucks" class="photopage"/>
+								<img src="public/img/topmount.jpg" alt="montage trucks" class="photopage"/>
 							<br/>
 							</p>
 							<ul class="circle">
@@ -80,7 +80,7 @@
 					<li>
 						<div class="para_article">
 							<h3>Les roues</h3>
-							<img src="photos/roue-longboard.png" alt="roues" class="photoarticle"/>
+							<img src="public/img/roue-longboard.png" alt="roues" class="photoarticle"/>
 							<p>
 								La taille des roues et leur dureté vont jouer aussi sur le comportement de la planche.
 								Plus le diamêtre de la roue sera élevé, plus vous attendrez des vitesses élevées sans efforts, par contre une roue plus petite sera plus maniable. Une roue large sera plus stable et aura plus d'accroche, mais sera moins maniable qu'une roue plus fine. <br/>
@@ -94,7 +94,7 @@
 					<li>
 						<div class="para_article">
 							<h3>Les roulements</h3>
-							<img src="photos/longboard-bearings.jpg" alt="roulements" class="photoarticle"/>
+							<img src="public/img/longboard-bearings.jpg" alt="roulements" class="photoarticle"/>
 							<p>
 								Au niveau du type de roulement compatible, tous les roulements de type 608 (8 désignant le diamètre en millimètre de l'axe de la roue) s'adaptent.
 								Autre norme, la norme ABEC, allant de 1 à 9, plus le chiffre est élevé, plus le roulement sera rapide, mais aussi plus fragile, donc optez pour un roulement ABEC 5 ou 7. Certaines marques de roulements n'utilisent pas la norme ABEC, ce n'est pas pour ça qu'ils sont moins bon (la marque Powell par exemple, qui est une des meilleures marques).

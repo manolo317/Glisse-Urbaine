@@ -14,7 +14,7 @@
 			<h2 class="titrePrincipalTrot">Quel avenir pour la trottinette freestyle?</h2>
 			
 			<div id="introt">
-				<img src="photos/fisescooter.jpg" alt="trottinette au FISE" class="photoarticle"/>
+				<img src="public/img/fisescooter.jpg" alt="trottinette au FISE" class="photoarticle"/>
 				<h3>Les raisons d'un succès</h3>
 				<p>
 					L'origine  du succès de la trottinette freestyle, vient de l'énorme engouement pour la trottinette dans les années 2000. Elle est réapparu sous l'impulsion de la marque suisse <strong>Micro Scooter</strong>, qui a inventé la trottinette moderne. Si le succès de la trottinette est intergénérationnel, certains jeunes ce sont appropriés cette nouvelle pratique et ont vite inventé de nombreuses figures. Plus facile de prise en main que le skate ou le bmx, la trottinette trouve son public, un public de jeune pionnier qui usent des trottinette inadaptées à la pratique du freestyle.
@@ -28,7 +28,7 @@
 							<h3>Le marché de la trottinette freestyle:</h3>
 					
 							
-							<img src="photos/skatetrot.jpg" alt="La guerre Trott vs Skate" class="photoarticle"/>
+							<img src="public/img/skatetrot.jpg" alt="La guerre Trott vs Skate" class="photoarticle"/>
 							<p>
 							C'est en 2007 que sont enfin créées les premières trottinettes freestyle, avec les marques <strong>Micro</strong>, <strong>JD Bug</strong> et <strong>Razor</strong>. Elles ne sont plus pliables, mais elles restent fragiles et lourdes.</br>
 							Le marché explose vraiment en 2010, avec la création de dizaines de marques entièrement dédiées au freestyle. On retrouve à leur tête des trottiriders soucieux de faire évoluer leur pratique, où des anciens riders de Bmx qui flairent un bon moyen de se reconvertir (<strong>Madd Scooter, Blunt Scooter</strong>,...) ou tout simplement des hommes d'affaires qui investissent sur un produit à la mode. 
@@ -44,10 +44,10 @@
 							<h3>Pratique, développement et limites:</h3>
 					
 							
-							<img src="photos/bunnyhop.jpg" alt="Rémi Bouchard Bunnyhop" class="photoarticle"/>
+							<img src="public/img/bunnyhop.jpg" alt="Rémi Bouchard Bunnyhop" class="photoarticle"/>
 							<p>
 							Si la trottinette peine à être prise au sérieux, le niveau des riders a carrément explosé en très peu de temps, et la spectacularité des figures n'a rien à envier aux autres disciplines freestyle.</br>
-							Des icônes, dont toutes les pratiques ont besoin pour se faire connaître et se développer, se révèlent, comme <a href="video-dakota.html" title="video Dakota"><strong>Dakota Schuetz</strong></a>, <strong>Ryan Williams</strong>, <strong>Max Peters</strong> ou au niveau français <strong>Rémi Bouchard</strong> ou <strong>Maxime Legrand</strong>.</br>
+							Des icônes, dont toutes les pratiques ont besoin pour se faire connaître et se développer, se révèlent, comme <a href="#" title="video Dakota"><strong>Dakota Schuetz</strong></a>, <strong>Ryan Williams</strong>, <strong>Max Peters</strong> ou au niveau français <strong>Rémi Bouchard</strong> ou <strong>Maxime Legrand</strong>.</br>
 							Le milieu de la trottinette s'organise, avec la création de <a href="http://internationalscooterassociation.com/" title="vers le site de l'ISA"><strong>l'International Scooter Association</strong></a>, des dizaines de marques et de distributeurs ainsi que de nombreux riders ont créés la fédération internationale de trottinette freestyle au début de l'année 2012. Avec à la clé, un véritable cadre légal à la pratique de la trottinette freestyle, l'établissement de règles et de compétitions officielles et l'espoir d'être reconnu et estimer dans le milieu du sport et de la culture freestyle.
 							Les premières compétitions sont plutôt un succès, surtout au niveau sportif, mais si en Australie et aux Etats-Unis, la trottinette est un minimum médiatisée, ce n'est pas le cas en Europe, et c'est encore très loin des autres sports extrêmes.</br></p>
 							<p>En effet, la trottinette souffre encore de son image de jouet, pratiquée par des enfants, la discrimination des trottiriders dans les skateparks est encore très présente, on reproche aux jeunes trottiriders de s'accaparer les skateparks sans respecter les règles. C'est un peu vrai, mais comme dans toutes les nouvelles pratiques, il y a un travail d'éducation à faire sur les jeunes pratiquants, et surtout sur les mentalités. Les trottinettes étaient même bannies de certains skateparks il y a encore peu de temps, et elles y rentrent peu à peu grâce à un gros lobbying des grandes marques de trottinettes auprès des gérants.</br> C'est le grand défi de la trottinette, se faire accepter dans le milieu du freestyle, au niveau de la pratique et du spectacle, c'est en bonne voie, maintenant il faut être présent dans les grands événements comme les <strong>X-Games</strong> et intéresser les sponsors qui finance la pratique et permet d'attirer des nouveaux adeptes.

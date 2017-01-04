@@ -18,7 +18,7 @@
 			<div id="introller">
 				
 				<h3>Historique des 24 heures du Mans Roller:</h3>
-				<img src="photos/24h.jpg" alt="début de course 24h" class="photoarticle"/>
+				<img src="public/img/24h.jpg" alt="début de course 24h" class="photoarticle"/>
 				<p>
 					Les 24 heures du Mans sont maintenant depuis 13 ans un passage obligé pour les amateurs de Roller. 
 					Créées en 2000 par l'association "La tribu Rollers", les 24 h sont un grand un grand succès populaire, surfant sur le développement des randonnées urbaines, le nombres de participants n'a cessé de croitre, passant de 600 à 1600 (en comptant les randonneurs de la parade.</br>
@@ -45,7 +45,7 @@
 						<div class="para_article">
 							<h4>14H:</h4>
 							
-								<img src="photos/parade.jpg" alt="Parade" class="photoarticle"/>
+								<img src="public/img/parade.jpg" alt="Parade" class="photoarticle"/>
 							<p>
 								Les 24h démarrent par la célèbre parade sur le circuit Bugatti, ouverte à tout le monde, l'occasion de rouler tous ensemble et de démontrer qu'on est capable de rouler avec des déguisements tous plus audacieux les uns que les autres.</br>
 								Ensuite arrive la course à l'équipement des stands, où les milliers de participants se ruent dans les stands pour entasser le plus de matériel possible et rendre leur course plus agréable. Nos deux équipes ne dérogent pas à la règle, cette année nous avons mis le paquet: matelas, tables, tonnelle et micro-onde!
@@ -65,7 +65,7 @@
 							<h4>16H-22H:</h4>
 							
 							
-								<img src="photos/depart.jpg" alt="Départ" class="photoarticle"/>
+								<img src="public/img/depart.jpg" alt="Départ" class="photoarticle"/>
 							<p>	
 								A 16 heures, c'est enfin le départ tant attendu, décidèment je suis gâté, c'est encore pour moi et pour Chloé pour les Classic. Normalement nous sommes sensés être placés en fonction de nos essais, mais impossible de voir notre place sur la grille, donc nous allons nous placer dans le peloton, équipés de nos Gopro pour ne pas rater une miette de ce moment mythique.
 							</p>
@@ -89,7 +89,7 @@
 						<div class="para_article">	
 							<h4>22H-4H:</h4>
 							
-							<img src="photos/dunlop.jpg" alt="Dunlop" class="photoarticle"/>
+							<img src="public/img/dunlop.jpg" alt="Dunlop" class="photoarticle"/>
 							<p>
 								Le deuxième relais à moins de charme que le premier, la montée Dunlop est de moins en moins sympathique, on n'a eu droit à quelques gouttes de pluies et le vent se lève et il nous scotche dans les lignes droites où il est vital de se trouver des compagnons pour se couper du vent. Le soleil montre le bout de son nez au moment de se coucher, j'aperçois Fred et Kiev qui immortalisent cela en haut de la Dunlop, je m'efforce de me montrer sous mon plus beau profil. Je garde malgré tout le cap, 5 tours en une dizaine de minutes chacun.
 							</p>
@@ -104,7 +104,7 @@
 						<div class="para_article">			
 							<h4>4H-10H:</h4>
 							
-							<img src="photos/nuit.jpg" alt="la nuit" class="photoarticle"/>
+							<img src="public/img/nuit.jpg" alt="la nuit" class="photoarticle"/>
 							<p>	
 								4 heure du mat, c'est reparti! On se demande vraiment ce qu'on fout là, mais finalement on est mieux à rouler qu'à se cailler les miches dans les stands. Je suis en mode automatique, écouteurs à fond dans les oreilles, je trace la route, ma seule angoisse est qu'Elen ne se soit pas réveiller et que je sois obligé d'enchainer un 6ème tour, heureusement, ça ne sera pas le cas.
 								Je rentre dans les stands, rempli du sentiment du devoir accompli, comme un hero de guerre, je compatis avec les soldats du froid qui reviennent du front et je plains ceux qu'ils y partent.
@@ -131,7 +131,7 @@
 						<div class="para_article">	
 							<h4>16H:</h4>
 							
-							<img src="photos/arrivee.jpg" alt="Arriv�e" class="photoarticle"/>
+							<img src="public/img/arrivee.jpg" alt="Arriv�e" class="photoarticle"/>
 							<p>	
 								Arrive, l'heure fatidique de l'arrivée, cette année c'est Machete pour la Team Warrior et Nanoo pour la Team Classic qui franchiront la ligne main dans la main, on en profite quand même avec Elen pour s'incruster et profiter de ce petit moment magique où les gradins et les bords de piste sont enfin garnis. Notre 244ème place au classement général et nos 113 tours sont anecdotiques, tant tout le monde à donner tout ce qu'il avait et que les conditions n'étaient pas vraiment clémentes.
 							</p>
@@ -146,7 +146,7 @@
 						<div class="para_article">	
 							<h4>Crédits:</h4>
 							
-							<img src="photos/to(r)rideteam.jpg" alt="Le To(R)ride Crew au complet" class="photoarticle"/>
+							<img src="public/img/to(r)rideteam.jpg" alt="Le To(R)ride Crew au complet" class="photoarticle"/>
 							<p>	
 								Merci à toute la famille To(R)ride de nous avoir permis de réaliser cette aventure, mais aussi à l'organisation des 24H du Mans Roller qui rend accessible à tous une superbe course, ça nous ouvre l'appetit pour d'autre défi roller à venir (Grol Race, Raid voies vertes,...).
 							</p>

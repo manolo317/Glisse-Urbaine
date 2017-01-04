@@ -18,7 +18,7 @@ class VideoManager
 
         $sql = "SELECT id, title, url, family, resume, content, date_posted
                 FROM videos 
-                ORDER BY date_created DESC;";
+                ORDER BY date_posted DESC;";
 
         $dbh = Db::getDbh();
 
@@ -29,13 +29,32 @@ class VideoManager
         return $results;
     }
 
-    public function findAllVideosByFamily($family)
+    public function findAllVideosPage($currentPage)
     {
+        $numPerPage = 10; //nombre de videos par page
+        $offset = ($currentPage-1) * $numPerPage; //nombre de videos par page à sauter à chaque requetes
+        $sql = "SELECT id, title, url, family, resume, content, date_posted
+                FROM videos 
+                ORDER BY date_posted DESC LIMIT $numPerPage OFFSET $offset;";
+
+        $dbh = Db::getDbh();
+
+        $stmt = $dbh->prepare($sql);
+        $stmt->execute();
+        $results = $stmt->fetchAll(PDO::FETCH_CLASS, '\Model\Entity\Video');
+
+        return $results;
+    }
+
+    public function findAllVideosByFamily($family, $currentPage)
+    {
+        $numPerPage = 10; //nombre de videos par page
+        $offset = ($currentPage-1) * $numPerPage; //nombre de videos par page à sauter à chaque requetes
 
         $sql = "SELECT id, title, url, family, resume, content, date_posted
                 FROM videos 
                 WHERE family = :family
-                ORDER BY date_posted DESC;";
+                ORDER BY date_posted DESC LIMIT $numPerPage OFFSET $offset;";
 
         $dbh = Db::getDbh();
 
@@ -82,6 +101,46 @@ class VideoManager
         $stmt->execute();
         $result = $stmt->fetchObject('\Model\Entity\Video');
 
+        return $result;
+    }
+
+    public function findOneById($id)
+    {
+        $sql = "SELECT id, title, url, family, resume, content, date_posted
+                FROM videos 
+                WHERE id= :id";
+
+        $dbh = Db::getDbh();
+        $stmt = $dbh->prepare($sql);
+        $stmt->bindValue(":id", $id);//donne une valeur en paramètre
+        $stmt->execute();
+        // instancie un objet
+        $result = $stmt->fetchObject('\Model\Entity\Video');
+
+        return $result;
+    }
+
+    public function countAll()
+    {
+        $sql = "SELECT COUNT(*)
+              FROM videos;";
+        $dbh = Db::getDbh();
+        $stmt = $dbh->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->fetchColumn();
+        return $result;
+    }
+
+    public function countAllByFamily($family)
+    {
+        $sql = "SELECT COUNT(*)
+              FROM videos
+              WHERE family = :family";
+        $dbh = Db::getDbh();
+        $stmt = $dbh->prepare($sql);
+        $stmt->bindValue(":family", $family);
+        $stmt->execute();
+        $result = $stmt->fetchColumn();
         return $result;
     }
 }

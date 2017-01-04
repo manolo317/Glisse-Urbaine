@@ -2,22 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7c302a-ce2f-4667-bfa4-6911a4019c67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/Controller/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/Controller/Dispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/Model/Db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/Model/Entity/Article.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/Model/Entity/Video.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/Model/Manager/ArticleManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/Model/Manager/VideoManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/View/View.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/config/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/config/routes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/base.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/article_details.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/errors/404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/roller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/skate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/trottinette.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/video_details.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/videos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/videos_roller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/videos_skate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V4/app/templates/videos_trottinette.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/V4/public/img/cliché.jpg" afterPath="$PROJECT_DIR$/V4/public/img/cliche.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/V4/public/img/collier de serrage.jpg" afterPath="$PROJECT_DIR$/V4/public/img/collier_de_serrage.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/V4/public/img/deck aos.jpg" afterPath="$PROJECT_DIR$/V4/public/img/deck_aos.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/V4/public/img/usd carbon free.jpg" afterPath="$PROJECT_DIR$/V4/public/img/usd_carbon_free.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/24hdumans.php" afterPath="$PROJECT_DIR$/24hdumans.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V4/app/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/V4/app/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V4/app/Model/Manager/ArticleManager.php" afterPath="$PROJECT_DIR$/V4/app/Model/Manager/ArticleManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V4/app/Model/Manager/VideoManager.php" afterPath="$PROJECT_DIR$/V4/app/Model/Manager/VideoManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V4/app/config/routes.php" afterPath="$PROJECT_DIR$/V4/app/config/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V4/app/templates/home.php" afterPath="$PROJECT_DIR$/V4/app/templates/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V4/app/templates/menu.php" afterPath="$PROJECT_DIR$/V4/app/templates/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avenirtrot.php" afterPath="$PROJECT_DIR$/avenirtrot.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cruiser.php" afterPath="$PROJECT_DIR$/cruiser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ics.php" afterPath="$PROJECT_DIR$/ics.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/longboard.php" afterPath="$PROJECT_DIR$/longboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marques-roller.php" afterPath="$PROJECT_DIR$/marques-roller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marques-trottinette.php" afterPath="$PROJECT_DIR$/marques-trottinette.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/montagetrot.php" afterPath="$PROJECT_DIR$/montagetrot.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-gladiator.php" afterPath="$PROJECT_DIR$/video-gladiator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/powerblading.php" afterPath="$PROJECT_DIR$/powerblading.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/powerslide.php" afterPath="$PROJECT_DIR$/powerslide.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tlc.php" afterPath="$PROJECT_DIR$/tlc.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,62 +62,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/V4/app/config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/V4/app/templates/base.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1483377397610" expanded="true" signature="600:621" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArticleManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/V4/app/Model/Manager/ArticleManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="190">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#7#91#0#PHP" expanded="true" />
                 <element signature="e#119#132#0#PHP" expanded="true" />
-                <marker date="1483433112318" expanded="true" signature="245:427" ph="SELECT id, t... article" />
+                <marker date="1483543752690" expanded="true" signature="245:427" ph="SELECT id, t... article" />
+                <marker date="1483543752690" expanded="true" signature="245:451" ph="SELECT id, t... article" />
+                <marker date="1483543752690" expanded="true" signature="720:825" ph="SELECT id, t... article" />
+                <marker date="1483543752690" expanded="true" signature="1182:1401" ph="SELECT id, t... article" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/V4/app/templates/home.php">
+      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/V4/app/templates/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="156">
+              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Video.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/V4/app/Model/Entity/Video.php">
+      <file leaf-file-name="diapo2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/V4/app/templates/diapo2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1586">
-              <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+            <state relative-caret-position="78">
+              <caret line="225" column="8" lean-forward="true" selection-start-line="225" selection-start-column="8" selection-end-line="225" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -110,26 +102,19 @@
       <file leaf-file-name="VideoManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/V4/app/Model/Manager/VideoManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1378">
-              <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            <state relative-caret-position="306">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#117#130#0#PHP" expanded="true" />
-                <marker date="1483440576154" expanded="true" signature="245:376" ph="SELECT id, t... videos" />
-                <marker date="1483440576154" expanded="true" signature="658:827" ph="SELECT id, t... videos" />
-                <marker date="1483440576154" expanded="true" signature="1188:1381" ph="SELECT id, t... videos" />
-                <marker date="1483440576154" expanded="true" signature="1739:1932" ph="SELECT id, t... videos" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/V4/app/Model/Entity/Article.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="e#7#91#0#PHP" expanded="true" />
+                <marker date="1483542953682" expanded="true" signature="245:375" ph="SELECT id, t... videos" />
+                <marker date="1483542953682" expanded="true" signature="816:972" ph="SELECT id, t... videos" />
+                <marker date="1483542953682" expanded="true" signature="1434:1603" ph="SELECT id, t... videos" />
+                <marker date="1483542953682" expanded="true" signature="1434:1629" ph="SELECT id, t... videos" />
+                <marker date="1483542953682" expanded="true" signature="1997:2190" ph="SELECT id, t... videos" />
+                <marker date="1483542953682" expanded="true" signature="2548:2741" ph="SELECT id, t... videos" />
+                <marker date="1483542953682" expanded="true" signature="3068:3186" ph="SELECT id, t... videos" />
+                <marker date="1483542953682" expanded="true" signature="3527:3568" ph="SELECT COUNT... videos" />
+                <marker date="1483542953682" expanded="true" signature="3803:3881" ph="SELECT COUNT... videos" />
               </folding>
             </state>
           </provider>
@@ -138,11 +123,87 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/V4/app/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="112">
+              <caret line="172" column="5" lean-forward="true" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
                 <element signature="e#113#146#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_details.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/V4/app/templates/video_details.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videos_roller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/V4/app/templates/videos_roller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="78" column="4" lean-forward="false" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <marker date="1483542686512" expanded="true" signature="554:561" ph="«" />
+                <marker date="1483542686512" expanded="true" signature="1186:1193" ph="»" />
+                <marker date="1483542686512" expanded="true" signature="2231:2238" ph="«" />
+                <marker date="1483542686512" expanded="true" signature="2863:2870" ph="»" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/V4/app/templates/videos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="68" column="10" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="68" selection-end-column="10" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <marker date="1483542553852" expanded="true" signature="1492:1499" ph="«" />
+                <marker date="1483542553852" expanded="true" signature="2124:2131" ph="»" />
+                <marker date="1483542553852" expanded="true" signature="3176:3183" ph="«" />
+                <marker date="1483542553852" expanded="true" signature="3808:3815" ph="»" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videos_trottinette.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/V4/app/templates/videos_trottinette.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <marker date="1483542703744" expanded="true" signature="526:533" ph="«" />
+                <marker date="1483542703744" expanded="true" signature="1158:1165" ph="»" />
+                <marker date="1483542703744" expanded="true" signature="2229:2236" ph="«" />
+                <marker date="1483542703744" expanded="true" signature="2861:2868" ph="»" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videos_skate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/V4/app/templates/videos_skate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <marker date="1483542725460" expanded="true" signature="517:524" ph="«" />
+                <marker date="1483542725460" expanded="true" signature="1149:1156" ph="»" />
+                <marker date="1483542725460" expanded="true" signature="2208:2215" ph="«" />
+                <marker date="1483542725460" expanded="true" signature="2840:2847" ph="»" />
               </folding>
             </state>
           </provider>
@@ -163,19 +224,30 @@
         <option value="$PROJECT_DIR$/V4/app/Controller/Dispatcher.php" />
         <option value="$PROJECT_DIR$/V4/app/View/View.php" />
         <option value="$PROJECT_DIR$/V4/app/config/config.php" />
-        <option value="$PROJECT_DIR$/V4/app/config/routes.php" />
-        <option value="$PROJECT_DIR$/V4/app/templates/menu.php" />
         <option value="$PROJECT_DIR$/V4/app/templates/entete.php" />
         <option value="$PROJECT_DIR$/V4/app/templates/head.php" />
         <option value="$PROJECT_DIR$/V4/app/templates/base.php" />
         <option value="$PROJECT_DIR$/V4/app/templates/diapo2.php" />
         <option value="$PROJECT_DIR$/V4/app/Model/Db.php" />
-        <option value="$PROJECT_DIR$/V4/app/Model/Manager/ArticleManager.php" />
         <option value="$PROJECT_DIR$/V4/app/Model/Entity/Article.php" />
         <option value="$PROJECT_DIR$/V4/app/Model/Entity/Video.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/errors/404.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/article_details.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/roller.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/trottinette.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/skate.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/menu.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/home.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/videos-trottinette.php" />
+        <option value="$PROJECT_DIR$/V4/app/config/routes.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/video_details.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/videos.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/videos_roller.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/videos_trottinette.php" />
+        <option value="$PROJECT_DIR$/V4/app/templates/videos_skate.php" />
         <option value="$PROJECT_DIR$/V4/app/Model/Manager/VideoManager.php" />
         <option value="$PROJECT_DIR$/V4/app/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/V4/app/templates/home.php" />
+        <option value="$PROJECT_DIR$/V4/app/Model/Manager/ArticleManager.php" />
       </list>
     </option>
   </component>
@@ -213,6 +285,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,11 +345,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,6 +372,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="errors" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -443,8 +521,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -554,11 +630,12 @@
       <workItem from="1481875324370" duration="21000" />
       <workItem from="1483372175309" duration="3743000" />
       <workItem from="1483431073015" duration="5839000" />
+      <workItem from="1483518750511" duration="14941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15075000" />
+    <option name="totallyTimeSpent" value="30016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,7 +650,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25642964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -603,35 +680,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/V4/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/templates/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1483377397610" expanded="true" signature="600:621" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/V4/app/templates/menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
@@ -829,21 +877,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/V4/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,10 +892,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/config/routes.php">
+    <entry file="file://$PROJECT_DIR$/V4/app/Model/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/Model/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#7#91#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/Model/Entity/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1586">
+          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/errors/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/article_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
           </folding>
@@ -873,18 +946,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/templates/menu.php">
+    <entry file="file://$PROJECT_DIR$/V4/app/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/Model/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="78">
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -900,70 +965,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/templates/diapo2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/V4/app/templates/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="86" />
+        <state relative-caret-position="286">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/Model/Entity/Article.php">
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/roller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/trottinette.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="48" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/skate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="73" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="83" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/video_details.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="25" />
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding>
-            <element signature="e#7#91#0#PHP" expanded="true" />
+            <element signature="e#6#90#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/Model/Entity/Video.php">
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/videos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1586">
-          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/Model/Manager/ArticleManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="320">
+          <caret line="68" column="10" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="68" selection-end-column="10" />
           <folding>
-            <element signature="e#7#91#0#PHP" expanded="true" />
-            <element signature="e#119#132#0#PHP" expanded="true" />
-            <marker date="1483433112318" expanded="true" signature="245:427" ph="SELECT id, t... article" />
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1483542553852" expanded="true" signature="1492:1499" ph="«" />
+            <marker date="1483542553852" expanded="true" signature="2124:2131" ph="»" />
+            <marker date="1483542553852" expanded="true" signature="3176:3183" ph="«" />
+            <marker date="1483542553852" expanded="true" signature="3808:3815" ph="»" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/Model/Manager/VideoManager.php">
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/videos_roller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1378">
-          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        <state relative-caret-position="242">
+          <caret line="78" column="4" lean-forward="false" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
           <folding>
-            <element signature="e#117#130#0#PHP" expanded="true" />
-            <marker date="1483440576154" expanded="true" signature="245:376" ph="SELECT id, t... videos" />
-            <marker date="1483440576154" expanded="true" signature="658:827" ph="SELECT id, t... videos" />
-            <marker date="1483440576154" expanded="true" signature="1188:1381" ph="SELECT id, t... videos" />
-            <marker date="1483440576154" expanded="true" signature="1739:1932" ph="SELECT id, t... videos" />
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1483542686512" expanded="true" signature="554:561" ph="«" />
+            <marker date="1483542686512" expanded="true" signature="1186:1193" ph="»" />
+            <marker date="1483542686512" expanded="true" signature="2231:2238" ph="«" />
+            <marker date="1483542686512" expanded="true" signature="2863:2870" ph="»" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/videos_trottinette.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1483542703744" expanded="true" signature="526:533" ph="«" />
+            <marker date="1483542703744" expanded="true" signature="1158:1165" ph="»" />
+            <marker date="1483542703744" expanded="true" signature="2229:2236" ph="«" />
+            <marker date="1483542703744" expanded="true" signature="2861:2868" ph="»" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/videos_skate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1483542725460" expanded="true" signature="517:524" ph="«" />
+            <marker date="1483542725460" expanded="true" signature="1149:1156" ph="»" />
+            <marker date="1483542725460" expanded="true" signature="2208:2215" ph="«" />
+            <marker date="1483542725460" expanded="true" signature="2840:2847" ph="»" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/V4/app/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="112">
+          <caret line="172" column="5" lean-forward="true" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
             <element signature="e#113#146#0#PHP" expanded="true" />
@@ -971,13 +1100,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/V4/app/templates/home.php">
+    <entry file="file://$PROJECT_DIR$/V4/app/Model/Manager/VideoManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
+            <element signature="e#117#130#0#PHP" expanded="true" />
+            <marker date="1483542953682" expanded="true" signature="245:375" ph="SELECT id, t... videos" />
+            <marker date="1483542953682" expanded="true" signature="816:972" ph="SELECT id, t... videos" />
+            <marker date="1483542953682" expanded="true" signature="1434:1603" ph="SELECT id, t... videos" />
+            <marker date="1483542953682" expanded="true" signature="1434:1629" ph="SELECT id, t... videos" />
+            <marker date="1483542953682" expanded="true" signature="1997:2190" ph="SELECT id, t... videos" />
+            <marker date="1483542953682" expanded="true" signature="2548:2741" ph="SELECT id, t... videos" />
+            <marker date="1483542953682" expanded="true" signature="3068:3186" ph="SELECT id, t... videos" />
+            <marker date="1483542953682" expanded="true" signature="3527:3568" ph="SELECT COUNT... videos" />
+            <marker date="1483542953682" expanded="true" signature="3803:3881" ph="SELECT COUNT... videos" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/Model/Manager/ArticleManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#91#0#PHP" expanded="true" />
+            <element signature="e#119#132#0#PHP" expanded="true" />
+            <marker date="1483543752690" expanded="true" signature="245:427" ph="SELECT id, t... article" />
+            <marker date="1483543752690" expanded="true" signature="245:451" ph="SELECT id, t... article" />
+            <marker date="1483543752690" expanded="true" signature="720:825" ph="SELECT id, t... article" />
+            <marker date="1483543752690" expanded="true" signature="1182:1401" ph="SELECT id, t... article" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4/app/templates/diapo2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="225" column="8" lean-forward="true" selection-start-line="225" selection-start-column="8" selection-end-line="225" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
