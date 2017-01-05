@@ -19,5 +19,7 @@
             <br/>
         </li>
     </ul>
+    <?php include("app/templates/social.php"); ?>
+    <?php include("app/templates/comments.php"); ?>
 </div>
 

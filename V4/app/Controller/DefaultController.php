@@ -6,7 +6,9 @@
  * Time: 17:01
  */
 namespace Controller;
+use Model\Entity\Comment;
 use Model\Manager\ArticleManager;
+use Model\Manager\CommentManager;
 use Model\Manager\VideoManager;
 use View\View;
 
@@ -14,9 +16,9 @@ class DefaultController
 {
     public function home()
     {
-        $roller = "roller";
-        $trot = "trottinette";
-        $skate = "skate";
+        $roller = "Roller";
+        $trot = "Trottinette";
+        $skate = "Skate";
 
         //affichage des articles
         $articleManager = new ArticleManager();
@@ -46,8 +48,42 @@ class DefaultController
         if(empty($article)){
             return $this->error404();
         }
+
+        $errors = [];
+        $comment = new Comment();
+        $commentManager = new CommentManager();
+        if(!empty($_POST)){
+            //attention aux XSS ici
+            $author = strip_tags($_POST['author']);
+            $email = strip_tags($_POST['email']);
+            $content = htmlspecialchars($_POST['content']);
+
+            //tous les champs sont requis
+            if (empty($author) || empty($email) || empty($content)){
+                $errors[] = "Veuillez remplir tous les champs.";
+            }
+
+            //email avec filter_var($email, FILTER_VALIDATE_EMAIL);
+            if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
+                $errors[] = "Votre email n'est pas valide";
+            }
+            if (empty($errors)){
+
+                $comment->setAuthor($author);
+                $comment->setEmail($email);
+                $comment->setContent($content);
+                $comment->setIdArticle($id);
+
+                $commentManager->create($comment);
+            }
+
+        }
+        $comments = $commentManager->findAllByIdArticle($id);
+
         //affiche la vue en lui passant le post
-        View::show("article_details.php", $article->getTitle(), ["article" =>$article]);
+        View::show("article_details.php", $article->getTitle(), ["article" => $article,
+                                                                 "comments" => $comments,
+                                                                 "errors" => $errors]);
     }
 
     public function error404()
@@ -59,7 +95,7 @@ class DefaultController
 
     public function roller()
     {
-        $roller = "roller";
+        $roller = "Roller";
 
         //affichage des articles
         $articleManager = new ArticleManager();
@@ -75,7 +111,7 @@ class DefaultController
 
     public function trottinette()
     {
-        $trottinette = "trottinette";
+        $trottinette = "Trottinette";
 
         //affichage des articles
         $articleManager = new ArticleManager();
@@ -91,7 +127,7 @@ class DefaultController
 
     public function skate()
     {
-        $skate = "skate";
+        $skate = "Skate";
 
         //affichage des articles
         $articleManager = new ArticleManager();
@@ -137,7 +173,7 @@ class DefaultController
             $currentPage = $_GET['page'];
         }
 
-        $roller = "roller";
+        $roller = "Roller";
         //affichage des vidéos
         $videoManager = new VideoManager();
         $videos = $videoManager->findAllVideosByFamily($roller, $currentPage);
@@ -161,7 +197,7 @@ class DefaultController
             $currentPage = $_GET['page'];
         }
 
-        $trottinette = "trottinette";
+        $trottinette = "Trottinette";
         //affichage des vidéos
         $videoManager = new VideoManager();
         $videos = $videoManager->findAllVideosByFamily($trottinette, $currentPage);
@@ -183,7 +219,7 @@ class DefaultController
             $currentPage = $_GET['page'];
         }
 
-        $skate = "skate";
+        $skate = "Skate";
         //affichage des vidéos
         $videoManager = new VideoManager();
         $videos = $videoManager->findAllVideosByFamily($skate, $currentPage);
@@ -205,7 +241,85 @@ class DefaultController
         if(empty($video)){
             return $this->error404();
         }
+
+        $errors = [];
+        $comment = new Comment();
+        $commentManager = new CommentManager();
+        if(!empty($_POST)){
+            //attention aux XSS ici
+            $author = strip_tags($_POST['author']);
+            $email = strip_tags($_POST['email']);
+            $content = htmlspecialchars($_POST['content']);
+
+            //tous les champs sont requis
+            if (empty($author) || empty($email) || empty($content)){
+                $errors[] = "Veuillez remplir tous les champs.";
+            }
+
+            //email avec filter_var($email, FILTER_VALIDATE_EMAIL);
+            if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
+                $errors[] = "Votre email n'est pas valide";
+            }
+            if (empty($errors)){
+
+                $comment->setAuthor($author);
+                $comment->setEmail($email);
+                $comment->setContent($content);
+                $comment->setIdArticle($id);
+
+                $commentManager->create($comment);
+            }
+
+        }
+        $comments = $commentManager->findAllByIdVideo($id);
+
         //affiche la vue en lui passant le post
-        View::show("video_details.php", $video->getTitle(), ["video" =>$video]);
+        View::show("video_details.php", $video->getTitle(), ["video" =>$video,
+                                                             "comments" => $comments,
+                                                             "errors" => $errors]);
+    }
+
+    public function contact()
+    {
+
+        $errors = []; // on crée une vérif de champs
+        if(empty($_POST['name'])){// on verifie l'existence du champ et d'un contenu
+            $errors ['name'] = "vous n'avez pas renseigné votre nom";
+        }
+        if((empty($_POST['email'])) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {// on verifie existence de la clé
+            $errors ['email'] = "vous n'avez pas renseigné votre email";
+        }
+        if(empty($_POST['message'])) {
+            $errors ['message'] = "vous n'avez pas renseigné votre message";
+        }
+        //On check les infos transmises lors de la validation
+        if(!empty($errors)){ // si erreur on renvoie vers la page précédente
+            //var_dump($errors);
+        }
+
+        else{
+            $_SESSION['success'] = 1;
+            $headers  = 'MIME-Version: 1.0' . "\r\n";
+            $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+            $headers .= 'FROM:' . htmlspecialchars($_POST['email']);
+            $to = 'postmaster@glisseurbaine.fr'; // Insérer votre adresse email ICI
+            $subject = 'Message envoyé par ' . htmlspecialchars($_POST['name']) .' - <i>' . htmlspecialchars($_POST['email']) .'</i>';
+            $message_content = '<table>
+                              <tr>
+                              <td><b>Emetteur du message:</b></td>
+                              </tr>
+                              <tr>
+                              <td>'. $subject . '</td>
+                              </tr>
+                              <tr>
+                              <td><b>Contenu du message:</b></td>
+                              </tr>
+                              <tr>
+                              <td>'. htmlspecialchars($_POST['message']) .'</td>
+                              </tr>
+                              </table>';
+            mail($to, $subject, $message_content, $headers);
+        }
+        View::show("contact.php", "Glisse Urbaine | Contact", ["errors" => $errors]);
     }
 }

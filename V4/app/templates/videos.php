@@ -71,7 +71,7 @@
         <div id="lignemenu"></div>
         <?php foreach($videos as $video): ?>
         <li class="video">
-            <a href="<?= BASE_URL ?>video-details?id=<?= $video->getId() ?>" title="voir la vidéo"><img src="<?= BASE_URL ?>public/img/videotrottinette.jpg" alt="logo video trottinette" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="<?= $video->getUrl() ?>" frameborder="0" allowfullscreen></iframe><img src="<?= BASE_URL ?>public/img/fond-noir-video.jpg" class="roll2" /><span> <?= $video->getResume() ?></span></div></a>
+            <a href="<?= BASE_URL ?>video-details?id=<?= $video->getId() ?>" title="voir la vidéo"><img src="<?= BASE_URL ?>public/img/video<?= $video->getFamily() ?>.jpg" alt="logo video <?= $video->getFamily() ?>" class="photoarticle"/><br/><br/><div class="imagehover"><iframe class="videomenu" width="154" height="80" src="<?= $video->getUrl() ?>" frameborder="0" allowfullscreen></iframe><img src="<?= BASE_URL ?>public/img/fond-noir-video.jpg" class="roll2" /><span> <?= $video->getResume() ?></span></div></a>
         </li>
         <div id="lignemenu"></div>
         <?php endforeach; ?>

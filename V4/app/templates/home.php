@@ -13,7 +13,7 @@
         <?php foreach($articles as $article): ?>
             <li>
                 <div class="border">
-                    <h3 class="titreSecond"><a href="<?= BASE_URL ?>details?id=<?= $article->getId() ?>"><?= $article->getTitle() ?></a></h3>
+                    <h3 class="titreSecond<?= $article->getFamily() ?>"><a href="<?= BASE_URL ?>details?id=<?= $article->getId() ?>"><?= $article->getTitle() ?></a></h3>
                     <div class="content clearfix">
                         <a href="<?= BASE_URL ?>details?id=<?= $article->getId() ?>" class="imagehover">
                             <img src="<?= BASE_URL ?>public/img/<?= $article->getImage() ?>" alt="" class="photoarticle"/>
@@ -30,7 +30,7 @@
 <div id="barmenuvideo">
     <h3 class="titreSecond"><a href="#">Vidéos +</a></h3>
     <div class="video-box">
-        <a href="<?= BASE_URL ?>videos-trottinette" class="logo-video"><img src="<?= BASE_URL ?>public/img/videotrottinette.jpg"  alt="logo video trottinette"/></a>
+        <a href="<?= BASE_URL ?>videos-trottinette" class="logo-video"><img src="<?= BASE_URL ?>public/img/videoTrottinette.jpg"  alt="logo video trottinette"/></a>
         <iframe class="minivideo" src="<?= $videoTrot->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
         <p>
             <br/>
@@ -41,7 +41,7 @@
     <br>
     <br>
     <div class="video-box">
-        <a href="<?= BASE_URL ?>videos-roller"><img src="<?= BASE_URL ?>public/img/videoroller.jpg" alt="logo video roller"/></a>
+        <a href="<?= BASE_URL ?>videos-roller"><img src="<?= BASE_URL ?>public/img/videoRoller.jpg" alt="logo video roller"/></a>
         <iframe class="minivideo" src="<?= $videoRoller->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
         <p>
             <br>
@@ -52,7 +52,7 @@
     <br>
     <br>
     <div class="video-box">
-        <a href="<?= BASE_URL ?>videos-skate"><img src="<?= BASE_URL ?>public/img/videoskate.jpg" alt="logo video skate"/></a>
+        <a href="<?= BASE_URL ?>videos-skate"><img src="<?= BASE_URL ?>public/img/videoSkate.jpg" alt="logo video skate"/></a>
         <iframe class="minivideo" src="<?= $videoSkate->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
         <br>
         <p>

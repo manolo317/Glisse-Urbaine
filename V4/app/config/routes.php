@@ -18,5 +18,6 @@ $routes = [
     "/videos-trottinette" => "videosTrot",
     "/videos-skate" => "videosSkate",
     "/video-details" => "videoDetails",
+    "/contact" => "contact",
 
 ];
