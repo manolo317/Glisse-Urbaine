@@ -16,9 +16,9 @@ class VideoManager
     public function findAllVideos()
     {
 
-        $sql = "SELECT id, title, url, family, resume, content, date_posted
+        $sql = "SELECT id, title, url, family, resume, content, datePosted
                 FROM videos 
-                ORDER BY date_posted DESC;";
+                ORDER BY datePosted DESC;";
 
         $dbh = Db::getDbh();
 
@@ -33,9 +33,9 @@ class VideoManager
     {
         $numPerPage = 10; //nombre de videos par page
         $offset = ($currentPage-1) * $numPerPage; //nombre de videos par page à sauter à chaque requetes
-        $sql = "SELECT id, title, url, family, resume, content, date_posted
+        $sql = "SELECT id, title, url, family, resume, content, datePosted
                 FROM videos 
-                ORDER BY date_posted DESC LIMIT $numPerPage OFFSET $offset;";
+                ORDER BY datePosted DESC LIMIT $numPerPage OFFSET $offset;";
 
         $dbh = Db::getDbh();
 
@@ -51,10 +51,10 @@ class VideoManager
         $numPerPage = 10; //nombre de videos par page
         $offset = ($currentPage-1) * $numPerPage; //nombre de videos par page à sauter à chaque requetes
 
-        $sql = "SELECT id, title, url, family, resume, content, date_posted
+        $sql = "SELECT id, title, url, family, resume, content, datePosted
                 FROM videos 
                 WHERE family = :family
-                ORDER BY date_posted DESC LIMIT $numPerPage OFFSET $offset;";
+                ORDER BY datePosted DESC LIMIT $numPerPage OFFSET $offset;";
 
         $dbh = Db::getDbh();
 
@@ -69,10 +69,10 @@ class VideoManager
     public function findThreeVideosByFamily($family)
     {
 
-        $sql = "SELECT id, title, url, family, resume, content, date_posted
+        $sql = "SELECT id, title, url, family, resume, content, datePosted
                 FROM videos 
                 WHERE family = :family
-                ORDER BY date_posted DESC
+                ORDER BY datePosted DESC
                 LIMIT 3;";
 
         $dbh = Db::getDbh();
@@ -88,10 +88,10 @@ class VideoManager
     public function findOneVideoByFamily($family)
     {
 
-        $sql = "SELECT id, title, url, family, resume, content, date_posted
+        $sql = "SELECT id, title, url, family, resume, content, datePosted
                 FROM videos 
                 WHERE family = :family
-                ORDER BY date_posted DESC
+                ORDER BY datePosted DESC
                 LIMIT 1;";
 
         $dbh = Db::getDbh();
@@ -106,7 +106,7 @@ class VideoManager
 
     public function findOneById($id)
     {
-        $sql = "SELECT id, title, url, family, resume, content, date_posted
+        $sql = "SELECT id, title, url, family, resume, content, datePosted
                 FROM videos 
                 WHERE id= :id";
 
@@ -141,6 +141,26 @@ class VideoManager
         $stmt->bindValue(":family", $family);
         $stmt->execute();
         $result = $stmt->fetchColumn();
+        return $result;
+    }
+
+    public function findVideoByResearch($research)
+    {
+        $sql = "SELECT id, title, url, family, resume, content, datePosted
+                FROM videos
+                WHERE title LIKE :research
+                OR family LIKE :research
+                OR resume LIKE :research
+                OR content LIKE :research
+                ORDER BY datePosted DESC;";
+
+        $dbh = Db::getDbh();
+        $stmt = $dbh->prepare($sql);
+        $stmt->bindValue(":research", '%'.$research.'%');//donne une valeur en paramètre
+        $stmt->execute();
+        // instancie un objet
+        $result = $stmt->fetchAll(PDO::FETCH_CLASS,'\Model\Entity\Video');
+
         return $result;
     }
 }

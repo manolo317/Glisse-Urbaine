@@ -6,9 +6,23 @@
  * Time: 17:55
  */
 ?>
-<?php include("diapo2.php"); ?>
+<?php include("app/templates/diapo2.php"); ?>
+
 <div id="barmenuppal">
     <h2 class="hidden"> Liste des dernières actualités.</h2>
+    <?php include("app/templates/research_bar.php"); ?>
+    <h3><?= $messageArticle ?></h3> <!--affichage message si pas de résultats-->
+
+    <?php if(!empty($_GET['research'])){ /*si films trouvés j'affiche le titre et le nombre de films*/
+        $countArticles = count($articles);
+        echo '<div id ="resultats_research"><h2>Résultat de votre recherche pour "'.$_GET['research'].'":</h2>';
+        if($countArticles>1){
+            echo "<h3>".$countArticles." articles trouvés.</h3></div><br>";
+        }
+        else{
+            echo "<h3>".$countArticles." article trouvé.</h3></div><br>";
+        }
+    }?>
     <ul>
         <?php foreach($articles as $article): ?>
             <li>
@@ -29,38 +43,66 @@
 </div>
 <div id="barmenuvideo">
     <h3 class="titreSecond"><a href="#">Vidéos +</a></h3>
-    <div class="video-box">
-        <a href="<?= BASE_URL ?>videos-trottinette" class="logo-video"><img src="<?= BASE_URL ?>public/img/videoTrottinette.jpg"  alt="logo video trottinette"/></a>
-        <iframe class="minivideo" src="<?= $videoTrot->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
+    <h3><?= $messageVideo ?></h3>
+    <?php if(!empty($_GET['research'])){ /*si films trouvés j'affiche le titre et le nombre de films*/
+        $countVideos = count($videos);
+        echo '<div id ="resultats_research"><h2>Résultat de votre recherche pour "'.$_GET['research'].'":</h2>';
+        if($countVideos>1){
+            echo "<h3>".$countVideos." vidéos trouvées.</h3></div><br>";
+        }
+        else{
+            echo "<h3>".$countVideos." vidéo trouvée.</h3></div><br>";
+        }
+    }?>
+
+        <?php if($videos === NULL) { // si j'ai pas de recherche j'affiche les vidéos Roller, Skate, Trot
+    echo '<div class='."video-box".'><a href="' . BASE_URL . 'videos-trottinette" class="logo-video"><img src="' . BASE_URL . 'public/img/videoTrottinette.jpg"  alt="logo video trottinette"/></a>
+        <iframe class="minivideo" src="' . $videoTrot->getUrl() . '" frameborder="0" allowfullscreen></iframe>
         <p>
             <br/>
-            <?= $videoTrot->getContent() ?>
+            '.$videoTrot->getContent().'
         </p>
     </div>
     <div id="lignemenu"></div>
     <br>
     <br>
     <div class="video-box">
-        <a href="<?= BASE_URL ?>videos-roller"><img src="<?= BASE_URL ?>public/img/videoRoller.jpg" alt="logo video roller"/></a>
-        <iframe class="minivideo" src="<?= $videoRoller->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
+        <a href="' . BASE_URL . 'videos-roller"><img src="' . BASE_URL . 'public/img/videoRoller.jpg" alt="logo video roller"/></a>
+        <iframe class="minivideo" src="' . $videoRoller->getUrl() . '" frameborder="0" allowfullscreen></iframe>
         <p>
             <br>
-            <?= $videoRoller->getContent() ?>
+            ' . $videoRoller->getContent() . '
         </p>
     </div>
     <div id="lignemenu"></div>
     <br>
     <br>
     <div class="video-box">
-        <a href="<?= BASE_URL ?>videos-skate"><img src="<?= BASE_URL ?>public/img/videoSkate.jpg" alt="logo video skate"/></a>
-        <iframe class="minivideo" src="<?= $videoSkate->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
+        <a href="' . BASE_URL . 'videos-skate"><img src="' . BASE_URL . 'public/img/videoSkate.jpg" alt="logo video skate"/></a>
+        <iframe class="minivideo" src="' . $videoSkate->getUrl() . '" frameborder="0" allowfullscreen></iframe>
         <br>
         <p>
             <br>
-            <?= $videoSkate->getContent() ?>
+            ' . $videoSkate->getContent() . '
         </p>
     </div>
-    <div id="lignemenu"></div>
+    <div id="lignemenu"></div>';
+            }
+            else{ // sinon j'affiche les videos de la recherche
+                foreach($videos as $video): ?>
+                    <div class="video-box">
+                        <a href="<?= BASE_URL ?>video-details?id=<?= $video->getId() ?>"><img src="<?= BASE_URL ?>public/img/video<?= $video->getFamily() ?>.jpg" alt="logo video roller" title="voir la video"/></a>
+                        <iframe class="minivideo" src="<?= $video->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
+                        <p>
+                            <br>
+                            <?= $video->getContent() ?>
+                        </p>
+                    </div>
+                    <div id="lignemenu"></div>
+                    <br>
+                <?php endforeach;
+            }?>
+
     <br>
 
     <div id="fb-video">

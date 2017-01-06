@@ -13,7 +13,7 @@
         <?php foreach($articles as $article): ?>
             <li>
                 <div class="border">
-                    <h3 class="titreSecond"><a href="<?= BASE_URL ?>details?id=<?= $article->getId() ?>"><?= $article->getTitle() ?></a></h3>
+                    <h3 class="titreSecond<?= $article->getFamily() ?>"><a href="<?= BASE_URL ?>details?id=<?= $article->getId() ?>"><?= $article->getTitle() ?></a></h3>
                     <div class="content clearfix">
                         <a href="<?= BASE_URL ?>details?id=<?= $article->getId() ?>" class="imagehover">
                             <img src="<?= BASE_URL ?>public/img/<?= $article->getImage() ?>" alt="" class="photoarticle"/>
@@ -28,10 +28,10 @@
     </ul>
 </div>
 <div id="barmenuvideo">
-    <h3 class="titreSecond"><a href="#">Vidéos +</a></h3>
+    <h3 class="titreSecond<?= $article->getFamily() ?>"><a href="<?= BASE_URL ?>videos-trottinette">Vidéos +</a></h3>
     <?php foreach($videosTrot as $videoTrot): ?>
         <div class="video-box">
-            <a href="#" class="logo-video"><img src="<?= BASE_URL ?>public/img/videotrottinette.jpg"  alt="logo video trottinette"/></a>
+            <a href="<?= BASE_URL ?>video-details?id=<?= $videoTrot->getId() ?>" class="logo-video"><img src="<?= BASE_URL ?>public/img/videotrottinette.jpg"  alt="logo video trottinette" title="voir la video"/></a>
             <iframe class="minivideo" src="<?= $videoTrot->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
             <p>
                 <br>

@@ -5,6 +5,8 @@
  * Date: 05/01/2017
  * Time: 10:04
  */
+//var_dump($comments);
+
 ?>
 <div class="commentaires">
     <h3>Laisse ton commentaire:</h3>
@@ -34,7 +36,7 @@
             <!--on affiche le contenu du billet-->
             <?= $comment->getContent() ?>
             </p>
-            <p class="commentaire-date">le <em><?= $comment->getDatePosted() ?> </em></p>
+            <p class="commentaire-date">le <em><?= $comment->getDatePosted() ?></em></p>
         </li>
         <?php endforeach; ?>
 

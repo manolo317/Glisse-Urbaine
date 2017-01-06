@@ -15,10 +15,10 @@ class CommentManager
 {
     public function findAllByIdArticle($idArticle)
     {
-        $sql = "SELECT c.id, c.id_article, c.author, c.email, c.content, c.date_posted
+        $sql = "SELECT c.id, c.idArticle, c.author, c.email, c.content, c.datePosted
                 FROM comments c
-                INNER JOIN article a
-                ON c.id_article = a.id
+                INNER JOIN articles a
+                ON c.idArticle = a.id
                 WHERE a.id= :id;";
 
         $dbh = Db::getDbh();
@@ -26,17 +26,17 @@ class CommentManager
         $stmt->bindValue(":id", $idArticle);//donne une valeur en paramètre
         $stmt->execute();
         // instancie un objet
-        $result = $stmt->fetchAll(PDO::FETCH_CLASS,'\Model\Entity\Comment');
+        $results = $stmt->fetchAll(PDO::FETCH_CLASS,'\Model\Entity\Comment');
 
-        return $result;
+        return $results;
     }
 
     public function findAllByIdVideo($idVideo)
     {
-        $sql = "SELECT c.id, c.id_article, c.author, c.email, c.content, c.date_posted
+        $sql = "SELECT c.id, c.idArticle, c.author, c.email, c.content, c.datePosted
                 FROM comments c
                 INNER JOIN videos v
-                ON c.id_article = v.id
+                ON c.idArticle = v.id
                 WHERE v.id= :id;";
 
         $dbh = Db::getDbh();
@@ -44,19 +44,20 @@ class CommentManager
         $stmt->bindValue(":id", $idVideo);//donne une valeur en paramètre
         $stmt->execute();
         // instancie un objet
-        $result = $stmt->fetchAll(PDO::FETCH_CLASS,'\Model\Entity\Comment');
+        $results = $stmt->fetchAll(PDO::FETCH_CLASS,'\Model\Entity\Comment');
+        //var_dump($results);
+        return $results;
 
-        return $result;
     }
 
     public function create(Comment $comment)
     {
-        $sql = "INSERT INTO comments(id_article, author, email, content, date_posted) 
-                                    VALUES (:id_article, :author, :email, :content, NOW());";
+        $sql = "INSERT INTO comments(idArticle, author, email, content, datePosted) 
+                                    VALUES (:idArticle, :author, :email, :content, NOW());";
 
         $dbh = Db::getDbh();
         $stmt = $dbh->prepare($sql);
-        $stmt->bindValue(":id_article", $comment->getIdArticle());
+        $stmt->bindValue(":idArticle", $comment->getIdArticle());
         $stmt->bindValue(":author", $comment->getAuthor());
         $stmt->bindValue(":email", $comment->getEmail());
         $stmt->bindValue(":content", $comment->getContent());

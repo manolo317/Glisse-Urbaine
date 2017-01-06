@@ -16,25 +16,51 @@ class DefaultController
 {
     public function home()
     {
-        $roller = "Roller";
-        $trot = "Trottinette";
-        $skate = "Skate";
-
-        //affichage des articles
         $articleManager = new ArticleManager();
-        $articles = $articleManager->findAll();
-
-        //affichage bar vidéos
         $videoManager = new VideoManager();
-        $videoRoller = $videoManager->findOneVideoByFamily($roller);
-        $videoTrot = $videoManager->findOneVideoByFamily($trot);
-        $videoSkate = $videoManager->findOneVideoByFamily($skate);
+        $videos = null;
+        $videoRoller = null;
+        $videoSkate = null;
+        $videoTrot = null;
+        $messageArticle = null;
+        $messageVideo = null;
 
+        if(!empty($_GET['research'])){
+            // je retourne les articles et videos contenant la recherche dans le titre
+            $articles = $articleManager->findArticleByResearch($_GET['research']);
+            $videos = $videoManager->findVideoByResearch($_GET['research']);
+            // si pas de résultats => message
+            if(empty($articles)){
+                $messageArticle = "Pas d'articles correspondant, essayez une autre recherche";
+            }
+            else if(empty($videos)){
+                $messageVideo = "Pas de videos correspondant, essayez une autre recherche";
+            }
+        }
+
+        else{
+            $roller = "Roller";
+            $trot = "Trottinette";
+            $skate = "Skate";
+
+            //affichage des articles
+
+            $articles = $articleManager->findAll();
+
+            //affichage bar vidéos
+
+            $videoRoller = $videoManager->findOneVideoByFamily($roller);
+            $videoTrot = $videoManager->findOneVideoByFamily($trot);
+            $videoSkate = $videoManager->findOneVideoByFamily($skate);
+        }
 
         View::show("home.php", "Glisse Urbaine | Accueil", ["articles" => $articles,
                                                             "videoRoller" => $videoRoller,
                                                             "videoSkate" => $videoSkate,
-                                                            "videoTrot" => $videoTrot]);
+                                                            "videoTrot" => $videoTrot,
+                                                            "videos" => $videos,
+                                                            "messageArticle" => $messageArticle,
+                                                            "messageVideo" => $messageVideo]);
     }
 
     public function articleDetails()
@@ -261,7 +287,7 @@ class DefaultController
                 $errors[] = "Votre email n'est pas valide";
             }
             if (empty($errors)){
-
+                //on hydrate l'objet
                 $comment->setAuthor($author);
                 $comment->setEmail($email);
                 $comment->setContent($content);

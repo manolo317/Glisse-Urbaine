@@ -13,7 +13,7 @@
         <?php foreach($articles as $article): ?>
             <li>
                 <div class="border">
-                    <h3 class="titreSecond"><a href="<?= BASE_URL ?>details?id=<?= $article->getId() ?>"><?= $article->getTitle() ?></a></h3>
+                    <h3 class="titreSecond<?= $article->getFamily() ?>"><a href="<?= BASE_URL ?>details?id=<?= $article->getId() ?>"><?= $article->getTitle() ?></a></h3>
                     <div class="content clearfix">
                         <a href="<?= BASE_URL ?>details?id=<?= $article->getId() ?>" class="imagehover">
                             <img src="<?= BASE_URL ?>public/img/<?= $article->getImage() ?>" alt="" class="photoarticle"/>
@@ -28,10 +28,10 @@
     </ul>
 </div>
 <div id="barmenuvideo">
-    <h3 class="titreSecond"><a href="#">Vidéos +</a></h3>
+    <h3 class="titreSecond<?= $article->getFamily() ?>"><a href="<?= BASE_URL ?>videos-roller">Vidéos +</a></h3>
     <?php foreach($videosRoller as $videoRoller): ?>
     <div class="video-box">
-        <a href="#"><img src="<?= BASE_URL ?>public/img/videoroller.jpg" alt="logo video roller"/></a>
+        <a href="<?= BASE_URL ?>video-details?id=<?= $videoRoller->getId() ?>"><img src="<?= BASE_URL ?>public/img/videoroller.jpg" alt="logo video roller" title="voir la video"/></a>
         <iframe class="minivideo" src="<?= $videoRoller->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
         <p>
             <br>
