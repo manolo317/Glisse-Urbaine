@@ -42,7 +42,7 @@
     </ul>
 </div>
 <div id="barmenuvideo">
-    <h3 class="titreSecond"><a href="#">Vidéos +</a></h3>
+    <h3 class="titreSecond"><a href="<?= BASE_URL ?>videos">Vidéos +</a></h3>
     <h3><?= $messageVideo ?></h3>
     <?php if(!empty($_GET['research'])){ /*si films trouvés j'affiche le titre et le nombre de films*/
         $countVideos = count($videos);

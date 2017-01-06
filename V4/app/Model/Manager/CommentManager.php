@@ -15,7 +15,7 @@ class CommentManager
 {
     public function findAllByIdArticle($idArticle)
     {
-        $sql = "SELECT c.id, c.idArticle, c.author, c.email, c.content, c.datePosted
+        $sql = "SELECT c.id, c.idArticle, c.author, c.email, c.content, DATE_FORMAT(c.datePosted, '%d/%m/%Y %Hh%imin%ss') AS datePosted
                 FROM comments c
                 INNER JOIN articles a
                 ON c.idArticle = a.id
@@ -33,7 +33,7 @@ class CommentManager
 
     public function findAllByIdVideo($idVideo)
     {
-        $sql = "SELECT c.id, c.idArticle, c.author, c.email, c.content, c.datePosted
+        $sql = "SELECT c.id, c.idArticle, c.author, c.email, c.content, DATE_FORMAT(c.datePosted, '%d/%m/%Y %Hh%imin%ss') AS datePosted
                 FROM comments c
                 INNER JOIN videos v
                 ON c.idArticle = v.id

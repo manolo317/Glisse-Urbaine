@@ -31,7 +31,7 @@
     <h3 class="titreSecond<?= $article->getFamily() ?>"><a href="<?= BASE_URL ?>videos-roller">Vidéos +</a></h3>
     <?php foreach($videosRoller as $videoRoller): ?>
     <div class="video-box">
-        <a href="<?= BASE_URL ?>video-details?id=<?= $videoRoller->getId() ?>"><img src="<?= BASE_URL ?>public/img/videoroller.jpg" alt="logo video roller" title="voir la video"/></a>
+        <a href="<?= BASE_URL ?>video-details?id=<?= $videoRoller->getId() ?>"><img src="<?= BASE_URL ?>public/img/videoRoller.jpg" alt="logo video roller" title="voir la video"/></a>
         <iframe class="minivideo" src="<?= $videoRoller->getUrl() ?>" frameborder="0" allowfullscreen></iframe>
         <p>
             <br>

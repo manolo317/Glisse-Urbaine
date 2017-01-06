@@ -4,7 +4,7 @@ body
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url("http://localhost/glisseurbaine/V4/public/img/skatepark2.jpg");
+	background-image: url("http://www.glisseurbaine.fr/public/img/skatepark2.jpg");
 	background-attachment:fixed;
 	background-color: lightgrey;
 	font-family: "Arial", "Times New Roman", sans-serif;
@@ -12,7 +12,7 @@ body
 @font-face 
 { 
     font-family: 'FFF_Tusj';
-    src: url('http://localhost/glisseurbaine/V4/public/css/FFF_Tusj.ttf');
+    src: url('http://www.glisseurbaine.fr/public/css/FFF_Tusj.ttf');
 }
 p
 {
@@ -402,7 +402,7 @@ html>body #menu li ul ul
 /*ARTICLE ROLLER*/
 .titrePrincipalRoller
 {
-	background: url("http://localhost/glisseurbaine/V4/public/img/route.jpg");
+	background: url("http://www.glisseurbaine.fr/public/img/route.jpg");
 	font-family: 'FFF_Tusj', arial;
 	color:rgb(237,153,39);
 	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
@@ -483,7 +483,7 @@ html>body #menu li ul ul
 /*ARTICLE TROTT*/
 .titrePrincipalTrot
 {
-	background: url("http://localhost/glisseurbaine/V4/public/img/route.jpg");
+	background: url("http://www.glisseurbaine.fr/public/img/route.jpg");
 	font-family: 'FFF_Tusj', arial;
 	color: rgb(126,244,55);
 	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
@@ -563,7 +563,7 @@ html>body #menu li ul ul
 /*ARTICLE SKATE*/
 .titrePrincipalSkate
 {
-	background: url("http://localhost/glisseurbaine/V4/public/img/route.jpg");
+	background: url("http://www.glisseurbaine.fr/public/img/route.jpg");
 	font-family: 'FFF_Tusj', arial;
 	color: rgb(0,165,244);
 	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
