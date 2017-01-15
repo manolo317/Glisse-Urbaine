@@ -7,3 +7,4 @@ RewriteRule .? - [L]
 # Réécrit à index.php, en passant le reste de l'URL (path) en paramètre p
 # Les paramètres d'URL ne sont pas inclus
 RewriteRule (.+) index.php?p=/$1 [L,QSA]
+

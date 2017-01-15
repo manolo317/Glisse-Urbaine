@@ -9,7 +9,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Glisse urbaine: le site de tous ceux qui aiment le goudron: Roller, Skateboard, Trottinettes...</title>
+        <title><?= $title ?></title>
         <meta name="description" content="L'actualité des sports de glisse urbain: Roller, Skateboard et Trotinette. Des dossiers pour bien choisir son matériel, découvrir une nouvelle pratique, pour monter sa trottinette freestyle, ou pour voir le dernier world first en vidéo!"/>
         <?php include("app/templates/head.php"); ?>
     <body>

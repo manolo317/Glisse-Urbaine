@@ -348,4 +348,9 @@ class DefaultController
         }
         View::show("contact.php", "Glisse Urbaine | Contact", ["errors" => $errors]);
     }
+
+    public function testArticle()
+    {
+        View::show("test_article.php", "Glisse Urbaine | Test");
+    }
 }
